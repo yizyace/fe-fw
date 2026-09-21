@@ -15,4 +15,8 @@ The CONSTITUTION.md file contains all engineering rules and conventions that sho
 <!-- Add project-specific Claude overrides below this line -->
 <!-- These overrides will be preserved during dd-dm pull operations -->
 
+Use the same project guidance as Codex:
+
+@AGENTS.md
+
 <!-- dd-dm:custom:end -->
