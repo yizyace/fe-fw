@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from 'react';
 import { createRootRoute, createRoute, createRouter, Link, Outlet, useRouterState } from '@tanstack/react-router';
 import { searchGuides } from './search';
-import type { LibraryData, ReaderGuide } from './types';
+import type { LibraryData } from './types';
 
 async function loadLibrary(): Promise<LibraryData> {
   const response = await fetch('/generated/library.json');
@@ -14,15 +14,7 @@ async function loadLibrary(): Promise<LibraryData> {
 function Frame({ children }: { children: ReactNode }) {
   return <>
     <a className="skip-link" href="#main-content">Skip to content</a>
-    <div className="book-spine" aria-hidden="true"><span>Fortune’s Weave</span></div>
-    <div className="site-shell">
-      <header className="site-header">
-        <Link to="/" className="wordmark" aria-label="Fortune’s Weave guide library"><span className="shelf-mark" aria-hidden="true"><i /><i /><i /></span>Fortune’s Weave</Link>
-        <span className="local-label">Your local guide library</span>
-      </header>
-      {children}
-      <footer className="site-footer"><span>A personal reference shelf.</span><span>Saved locally. Read at your own pace.</span></footer>
-    </div>
+    <div className="site-shell">{children}</div>
   </>;
 }
 
@@ -42,7 +34,6 @@ function usePageHeading(title: string) {
 function Failure() {
   const titleRef = usePageHeading('Library unavailable · Fortune’s Weave');
   return <Frame><main id="main-content" className="message-page" tabIndex={-1}>
-    <p className="section-label">Library unavailable</p>
     <h1 ref={titleRef} tabIndex={-1}>Couldn’t open your library.</h1>
     <p>Rebuild the local library with <code>pnpm guides:build</code>, then reload this page.</p>
     <button type="button" onClick={() => window.location.reload()}>Reload library</button>
@@ -52,7 +43,7 @@ function Failure() {
 function MissingPage() {
   const titleRef = usePageHeading('Page not found · Fortune’s Weave');
   return <main id="main-content" className="message-page" tabIndex={-1}>
-    <h1 ref={titleRef} tabIndex={-1}>Page not found.</h1><p>This page isn’t on your shelf.</p><Link to="/">Return to the library</Link>
+    <h1 ref={titleRef} tabIndex={-1}>Page not found.</h1><Link to="/">Return to the library</Link>
   </main>;
 }
 
@@ -64,11 +55,6 @@ const rootRoute = createRootRoute({
   pendingComponent: () => <Frame><main id="main-content" className="message-page" tabIndex={-1}><h1>Opening your library…</h1></main></Frame>,
   notFoundComponent: MissingPage,
 });
-
-function formatDate(date: string): string {
-  const parsed = new Date(date);
-  return Number.isNaN(parsed.getTime()) ? date : new Intl.DateTimeFormat('en', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }).format(parsed);
-}
 
 function Highlight({ text, query }: { text: string; query: string }) {
   const needle = query.trim().toLowerCase();
@@ -89,55 +75,35 @@ function Library() {
   const { guides, sources } = rootRoute.useLoaderData();
   const [query, setQuery] = useState('');
   const results = searchGuides(guides, query);
-  const publishers = [...new Set(results.map(result => result.guide.publisher))];
-  const titleRef = usePageHeading('Fortune’s Weave · Guide library');
+  const titleRef = usePageHeading('Fortune’s Weave reference');
 
   return <main id="main-content" className="library" tabIndex={-1}>
-    <div className="library-intro">
-      <p className="section-label">Fire Emblem: Fortune’s Weave</p>
-      <h1 ref={titleRef} tabIndex={-1}>Keep your place.<br />Find your next move.</h1>
-      <p className="intro-copy">Guides from across the web, gathered on one quiet shelf.</p>
-    </div>
+    <header className="library-header"><h1 ref={titleRef} tabIndex={-1}>Fortune’s Weave reference</h1></header>
     {guides.length > 0 ? <>
       <div className="search-area">
         <label htmlFor="guide-search">Search guides</label>
         <div className="search-control">
-          <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg>
-          <input id="guide-search" type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder="Find a topic, character, or passage" autoComplete="off" />
+          <input id="guide-search" type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder="Character, gift, or prompt" autoComplete="off" />
           {query && <button type="button" className="clear-search" onClick={() => { setQuery(''); document.getElementById('guide-search')?.focus(); }}>Clear</button>}
         </div>
-        <p className="search-summary" role="status">{query.trim() ? `${results.length} ${results.length === 1 ? 'guide matches' : 'guides match'} “${query.trim()}”` : `${guides.length} ${guides.length === 1 ? 'guide' : 'guides'} on your shelf. Search titles and full text.`}</p>
+        <p className="search-summary" role="status">{query.trim() ? `${results.length} ${results.length === 1 ? 'guide matches' : 'guides match'} “${query.trim()}”` : ''}</p>
       </div>
       {results.length === 0 && <div className="empty-results"><h2>No matching passages.</h2><p>Try a shorter phrase or a different spelling.</p></div>}
-      <div className="publisher-list">{publishers.map(publisher => <section className="publisher-section" key={publisher} aria-label={`${publisher} guides`}>
-        <div className="publisher-heading"><h2>{publisher}</h2><span>{results.filter(result => result.guide.publisher === publisher).length} {results.filter(result => result.guide.publisher === publisher).length === 1 ? 'guide' : 'guides'}</span></div>
-        <div className="guide-list">{results.filter(result => result.guide.publisher === publisher).map(({ guide, matches }) => <article className="guide-entry" key={guide.id}>
-          <p className="guide-topic">{guide.topic}</p>
-          <h3><Link to="/guides/$guideId" params={{ guideId: guide.id }}><Highlight text={guide.title} query={query} /></Link></h3>
-          {!query.trim() && <p className="guide-description">{guide.text.slice(0, 200)}{guide.text.length > 200 ? '…' : ''}</p>}
-          <div className="guide-meta">{guide.author && <span>By {guide.author}</span>}<span>Saved {formatDate(guide.capturedAt)}</span></div>
-          {matches.length > 0 && <ul className="search-matches">{matches.map((match, index) => <li key={`${match.headingId}-${index}`}>
-            <Link to="/guides/$guideId" params={{ guideId: guide.id }} hash={match.headingId || undefined} className="passage-link">
-              <span className="passage-heading">{match.heading || 'Matching passage'}</span>
-              <span className="passage-excerpt"><Highlight text={match.excerpt} query={query} /></span>
-            </Link>
-          </li>)}</ul>}
-        </article>)}</div>
-      </section>)}</div>
+      <ul className="guide-list">{results.map(({ guide, matches }) => <li className="guide-entry" key={guide.id}>
+        <h2><Link to="/guides/$guideId" params={{ guideId: guide.id }}><Highlight text={guide.title} query={query} /></Link></h2>
+        {matches.length > 0 && <ul className="search-matches">{matches.map((match, index) => <li key={`${match.headingId}-${index}`}>
+          <Link to="/guides/$guideId" params={{ guideId: guide.id }} hash={match.headingId || undefined} className="passage-link">
+            <span className="passage-heading">{match.heading || 'Matching passage'}</span>
+            <span className="passage-excerpt"><Highlight text={match.excerpt} query={query} /></span>
+          </Link>
+        </li>)}</ul>}
+      </li>)}</ul>
     </> : <section className="empty-library">
-      <h2>Your shelf is ready.</h2>
-      <p>Import the source guides to start reading and searching your local collection.</p>
-      <code className="command">pnpm guides:import all</code>
-      <p className="muted">Then restart the local server to load your saved guides.</p>
-      {sources.length > 0 && <><h3>Sources to add</h3><ul className="source-list">{sources.map(source => <li key={source.id}><span>{source.publisher}</span><a href={source.url}>{source.topic}</a></li>)}</ul></>}
+      <h2>No saved guides.</h2>
+      <p>Run <code>pnpm guides:import all</code>, then reload the library.</p>
+      {sources.length > 0 && <ul className="source-list">{sources.map(source => <li key={source.id}>{source.publisher}: <a href={source.url}>{source.topic}</a></li>)}</ul>}
     </section>}
   </main>;
-}
-
-function HeadingLinks({ guide }: { guide: ReaderGuide }) {
-  return <ul>{guide.headings.map(heading => <li key={heading.id} className={heading.level > 2 ? 'nested-heading' : undefined}>
-    <Link to="/guides/$guideId" params={{ guideId: guide.id }} hash={heading.id}>{heading.text}</Link>
-  </li>)}</ul>;
 }
 
 function Guide() {
@@ -147,7 +113,7 @@ function Guide() {
   const hash = useRouterState({ select: state => state.location.hash });
 
   useLayoutEffect(() => {
-    document.title = guide ? `${guide.title} · Fortune’s Weave` : 'Guide not found · Fortune’s Weave';
+    document.title = guide ? guide.title : 'Guide not found · Fortune’s Weave';
     const heading = hash ? document.getElementById(hash) : document.getElementById('guide-title');
     if (heading) {
       heading.setAttribute('tabindex', '-1');
@@ -158,30 +124,18 @@ function Guide() {
 
   if (!guide) return <main id="main-content" className="message-page" tabIndex={-1}>
     <Link to="/" className="back-link">Back to library</Link><h1 id="guide-title" tabIndex={-1}>Guide not found.</h1>
-    <p>This guide hasn’t been saved to your local library.</p><p>Browse the library to find an available guide.</p>
+    <p>This guide hasn’t been saved. Return to the library to choose an available guide.</p>
   </main>;
 
   return <main id="main-content" className="reader" tabIndex={-1}>
-    <Link to="/" className="back-link"><span aria-hidden="true">‹</span> Back to library</Link>
-    <div className="reader-layout">
-      <article className="reader-article">
-        <header className="article-header">
-          <p className="section-label">{guide.publisher}<span className="label-separator" aria-hidden="true">/</span>{guide.topic}</p>
-          <h1 id="guide-title" tabIndex={-1}>{guide.title}</h1>
-          <dl className="article-metadata">
-            {guide.author && <div><dt>Written by</dt><dd>{guide.author}</dd></div>}
-            {guide.publishedAt && <div><dt>Published</dt><dd>{formatDate(guide.publishedAt)}</dd></div>}
-            <div><dt>Saved locally</dt><dd><time dateTime={guide.capturedAt}>{formatDate(guide.capturedAt)}</time></dd></div>
-            <div><dt>Original source</dt><dd><a href={guide.sourceUrl}>Read at {guide.publisher}<span aria-hidden="true"> ↗</span></a></dd></div>
-          </dl>
-        </header>
-        {guide.headings.length > 0 && <details className="mobile-index"><summary>In this guide</summary><nav aria-label="Guide sections"><HeadingLinks guide={guide} /></nav></details>}
-        {guide.warnings.length > 0 && <details className="capture-notes"><summary>Notes about this saved copy</summary><ul>{guide.warnings.map((warning, index) => <li key={index}>{warning}</li>)}</ul></details>}
-        <div className="article-content" dangerouslySetInnerHTML={{ __html: guide.html }} />
-        <div className="article-end"><Link to="/">Back to library</Link><a href="#guide-title">Back to top</a></div>
-      </article>
-      {guide.headings.length > 0 && <aside className="desktop-index"><nav aria-label="Guide sections"><h2>In this guide</h2><HeadingLinks guide={guide} /></nav></aside>}
-    </div>
+    <article>
+      <header className="reader-header">
+        <Link to="/">Library</Link>
+        <h1 id="guide-title" tabIndex={-1}>{guide.topic}</h1>
+        <a className="source-link" href={guide.sourceUrl}>Source: {guide.publisher}</a>
+      </header>
+      <div className="article-content" dangerouslySetInnerHTML={{ __html: guide.html }} />
+    </article>
   </main>;
 }
 
