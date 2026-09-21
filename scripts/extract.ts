@@ -1,8 +1,8 @@
 import { load } from 'cheerio';
 import sanitizeHtml from 'sanitize-html';
-import type { AssetRecord, ReaderGuide, SourceDefinition } from '../src/types';
+import type { ReaderGuide, SourceDefinition } from '../src/types';
 
-export const EXTRACTION_VERSION = '3';
+export const EXTRACTION_VERSION = '4';
 export type Extracted = Pick<ReaderGuide, 'title' | 'author' | 'publishedAt' | 'html' | 'text' | 'headings' | 'sections' | 'warnings'>;
 const compact = (text: string) => text.replace(/\s+/g, ' ').trim();
 const slug = (text: string) => text.normalize('NFKD').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'heading';
@@ -105,21 +105,6 @@ export function extractArticle(source: SourceDefinition, raw: string, url: strin
   if (source.adapter !== 'dork' && !load(html)('table').length) throw new Error('Expected guide table missing');
   if (source.adapter === 'dork' && !headings.length) throw new Error('Expected character sections missing');
   return { title, author, publishedAt, html, ...content, headings, warnings };
-}
-
-export function localizeImages(html: string, assets: AssetRecord[]): string {
-  const $ = load(html, null, false);
-  const byUrl = new Map(assets.map(a => [a.url, a]));
-  $('img').each((_, e) => {
-    const el = $(e); const asset = byUrl.get(el.attr('src') || '');
-    if (asset?.path) el.attr('src', `/generated/${asset.path}`);
-    else {
-      const replacement = $('<div class="image-unavailable"></div>').text(`Image unavailable${el.attr('alt') ? `: ${el.attr('alt')}` : '.'}`);
-      if (el.attr('id')) replacement.attr('id', el.attr('id')!);
-      el.replaceWith(replacement);
-    }
-  });
-  return $.html();
 }
 
 export function indexContent(html: string, title: string): Pick<ReaderGuide, 'text' | 'sections'> {

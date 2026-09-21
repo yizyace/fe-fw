@@ -1,10 +1,11 @@
 import { createHash, randomUUID } from 'node:crypto';
-import { copyFile, mkdir, readFile, readdir, rename, rm, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, readdir, rename, rm, writeFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 import { load } from 'cheerio';
 import { chromium } from '@playwright/test';
-import type { AssetRecord, CaptureManifest, LibraryData, ReaderGuide, SourceDefinition } from '../src/types';
-import { bodySelectors, EXTRACTION_VERSION, extractArticle, indexContent, localizeImages, sanitizeArticle } from './extract';
+import type { CaptureManifest, LibraryData, ReaderGuide, SourceDefinition } from '../src/types';
+import { bodySelectors, EXTRACTION_VERSION, extractArticle, indexContent, sanitizeArticle } from './extract';
+import { normalizeReference } from './reference';
 
 const hash = (bytes: string | Buffer) => createHash('sha256').update(bytes).digest('hex');
 const json = (data: unknown) => JSON.stringify(data, null, 2) + '\n';
@@ -38,6 +39,7 @@ async function acquire(source: SourceDefinition, options: CaptureOptions) {
     const browser = await chromium.launch();
     try {
       const page = await browser.newPage();
+      await page.route('**/*', route => route.request().resourceType() === 'image' ? route.abort() : route.continue());
       const response = await page.goto(source.url, { waitUntil: 'domcontentloaded', timeout: 45000 });
       if (response?.ok()) await page.locator(bodySelectors[source.adapter]).first().waitFor({ timeout: 15000 }).catch(() => {});
       return { raw: Buffer.from(await page.content()), finalUrl: page.url(), method: 'browser' as const, status: response?.status() ?? 0 };
@@ -54,20 +56,6 @@ function imageExtension(bytes: Buffer): string | undefined {
   if (bytes.subarray(0, 4).toString() === 'RIFF' && bytes.subarray(8, 12).toString() === 'WEBP') return 'webp';
   if (bytes.subarray(4, 8).toString() === 'ftyp' && /avif|avis/.test(bytes.subarray(8, 32).toString())) return 'avif';
 }
-async function downloadAsset(root: string, url: string): Promise<AssetRecord> {
-  try {
-    const response = await fetch(url, { signal: AbortSignal.timeout(20000) });
-    if (!response.ok) throw Error(`HTTP ${response.status}`);
-    const bytes = Buffer.from(await response.arrayBuffer());
-    const extension = imageExtension(bytes);
-    if (!extension || bytes.length > 20 * 1024 * 1024) throw Error('Unsupported or oversized image (raster images up to 20 MB only)');
-    const sha256 = hash(bytes); const path = `assets/${sha256}.${extension}`;
-    await mkdir(join(root, 'corpus/assets'), { recursive: true });
-    await writeFile(join(root, 'corpus', path), bytes);
-    return { url, finalUrl: response.url, path, sha256, mediaType: response.headers.get('content-type') || `image/${extension}` };
-  } catch (error) { return { url, error: errorMessage(error) }; }
-}
-
 export async function captureSource(source: SourceDefinition, options: CaptureOptions): Promise<CaptureManifest> {
   if (!safeId(source.id)) throw Error('Unsafe source ID');
   const capturedAt = new Date().toISOString();
@@ -80,19 +68,24 @@ export async function captureSource(source: SourceDefinition, options: CaptureOp
     await writeFile(join(folder, 'raw.html'), capture.raw);
     if (capture.status !== null && (capture.status < 200 || capture.status >= 300)) throw Error(`HTTP ${capture.status}`);
     const extracted = extractArticle(source, capture.raw.toString('utf8'), capture.finalUrl);
-    const imageUrls = [...new Set(load(extracted.html)('img').map((_, e) => e.attribs.src).get())];
-    const assets: AssetRecord[] = [];
-    for (let i = 0; i < imageUrls.length; i += 6) assets.push(...await Promise.all(imageUrls.slice(i, i + 6).map(url => downloadAsset(options.root, url))));
-    const warnings = [...extracted.warnings, ...assets.filter(a => a.error).map(a => `Image unavailable: ${a.url} (${a.error})`)];
+    const warnings = [...extracted.warnings];
     if (options.htmlPath) warnings.push('Imported operator-supplied HTML; original response status and final URL could not be independently verified.');
-    const html = localizeImages(extracted.html, assets);
+    // Raw captures retain image provenance; new cleaned captures need no assets.
+    const $ = load(extracted.html, null, false);
+    $('img, .image-unavailable').each((_, element) => {
+      const id = $(element).attr('id');
+      if (id) $(element).replaceWith($('<span></span>').attr('id', id));
+      else $(element).remove();
+    });
+    const html = $.html();
     const guide: ReaderGuide = { ...extracted, ...indexContent(html, extracted.title), id: source.id, publisher: source.publisher, topic: source.topic, sourceUrl: capture.finalUrl, capturedAt, html, warnings };
     const guideBytes = json(guide);
-    const manifest: CaptureManifest = { schemaVersion: 1, source, captureId, requestedUrl: source.url, finalUrl: capture.finalUrl, capturedAt, method: capture.method, ...(options.htmlPath ? { inputPath: resolve(options.htmlPath) } : {}), status: capture.status, extractionVersion: EXTRACTION_VERSION, rawSha256: hash(capture.raw), guideSha256: hash(guideBytes), assets, warnings };
+    const manifest: CaptureManifest = { schemaVersion: 1, source, captureId, requestedUrl: source.url, finalUrl: capture.finalUrl, capturedAt, method: capture.method, ...(options.htmlPath ? { inputPath: resolve(options.htmlPath) } : {}), status: capture.status, extractionVersion: EXTRACTION_VERSION, rawSha256: hash(capture.raw), guideSha256: hash(guideBytes), assets: [], warnings };
     await writeFile(join(folder, 'guide.json'), guideBytes);
     await writeJson(join(folder, 'manifest.json'), manifest);
     // A capture must pass the same checks as an offline build before promotion.
     await readCapture(options.root, source.id, captureId);
+    normalizeReference(source, guide);
     await writeJson(join(options.root, 'corpus', source.id, 'current.json'), { captureId });
     return manifest;
   } catch (error) {
@@ -137,27 +130,15 @@ function inspectLinks(guide: ReaderGuide, assets: Set<string>): string[] {
   return errors;
 }
 
-async function collectLibrary(root: string) {
-  const sources = await readSources(root); const guides: ReaderGuide[] = []; const manifests: CaptureManifest[] = [];
+async function collectLibrary(root: string): Promise<LibraryData> {
+  const sources = await readSources(root); const guides: ReaderGuide[] = [];
   for (const source of sources) {
     const current = await optionalJson<{ captureId: string }>(join(root, 'corpus', source.id, 'current.json'));
     if (!current) continue;
-    const { manifest, guide } = await readCapture(root, source.id, current.captureId);
-    guides.push({ ...guide, ...indexContent(guide.html, guide.title) }); manifests.push(manifest);
+    const { guide } = await readCapture(root, source.id, current.captureId);
+    guides.push(normalizeReference(source, guide));
   }
-  // Links to captured articles stay local. Other source links remain explicitly external.
-  const localUrls = new Map(manifests.flatMap(m => [[m.requestedUrl.replace(/\/$/, ''), m.source.id], [m.finalUrl.replace(/\/$/, ''), m.source.id]]));
-  for (const guide of guides) {
-    const $ = load(guide.html, null, false);
-    $('a[href]').each((_, e) => {
-      const href = $(e).attr('href')!;
-      if (!/^https?:/.test(href)) return;
-      const url = new URL(href); if (url.hash || url.search) return;
-      const id = localUrls.get(url.href.replace(/\/$/, '')); if (id) $(e).attr('href', `/guides/${id}`);
-    });
-    guide.html = $.html();
-  }
-  return { library: { guides, sources } satisfies LibraryData, manifests };
+  return { guides, sources };
 }
 
 export async function writeInventory(root: string) {
@@ -177,11 +158,10 @@ export async function writeInventory(root: string) {
 }
 
 export async function buildLibrary(root: string): Promise<LibraryData> {
-  const { library, manifests } = await collectLibrary(root);
+  const library = await collectLibrary(root);
   const stage = join(root, 'public', `.generated-${randomUUID()}`); const target = join(root, 'public/generated'); const backup = `${stage}-previous`;
-  await mkdir(join(stage, 'assets'), { recursive: true });
+  await mkdir(stage, { recursive: true });
   try {
-    for (const asset of manifests.flatMap(m => m.assets)) if (asset.path) await copyFile(join(root, 'corpus', asset.path), join(stage, asset.path));
     await writeJson(join(stage, 'library.json'), library);
     let hadPrevious = false;
     try { await rename(target, backup); hadPrevious = true; } catch (error) { if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error; }
@@ -199,13 +179,11 @@ export async function verifyCorpus(root: string): Promise<string[]> {
     for (const entry of inventory) if (entry.manifest) {
       try { await readCapture(root, entry.sourceId, entry.captureId); } catch (error) { errors.push(errorMessage(error)); }
     }
-    const { library, manifests } = await collectLibrary(root);
+    const library = await collectLibrary(root);
     const generated = await readFile(join(root, 'public/generated/library.json'), 'utf8');
     if (generated !== json(library)) errors.push('Generated library is stale; run pnpm guides:build');
-    for (const asset of manifests.flatMap(m => m.assets)) if (asset.path) {
-      try { if (hash(await readFile(join(root, 'public/generated', asset.path))) !== asset.sha256) errors.push(`Generated asset hash mismatch: ${asset.path}`); }
-      catch { errors.push(`Missing generated asset: ${asset.path}`); }
-    }
+    if ((await readdir(join(root, 'public/generated'))).some(file => file !== 'library.json')) errors.push('Unexpected generated assets; run pnpm guides:build');
+    for (const guide of library.guides) errors.push(...inspectLinks(guide, new Set()));
   } catch (error) { errors.push(errorMessage(error)); }
   return errors;
 }
