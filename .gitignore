@@ -1,0 +1,10 @@
+node_modules/
+dist/
+corpus/
+public/generated/
+public/.generated-*/
+.superpowers/
+.playwright-mcp/
+playwright-report/
+test-results/
+.DS_Store
