@@ -29,7 +29,9 @@ Project skills:
   routing, search, accessibility, and offline validation.
 
 Keep publishers separate and preserve attribution. Never force-add `corpus/`,
-`public/generated/`, or `dist/` to this public repository. Captures are immutable;
+`public/generated/`, or `dist/` to this public repository. The reviewed data-only
+`reference/library.json` snapshot is public and powers GitHub Pages; raw captures
+and historical assets stay local. Captures are immutable;
 failed refreshes retain the last successful guide. `pnpm guides:build` and
 `pnpm guides:verify` are offline commands. Validate code with lint, typecheck,
 unit tests, production build, and browser tests before calling it complete.

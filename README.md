@@ -2,6 +2,32 @@
 
 A compact, searchable reference for **Fire Emblem: Fortune’s Weave**. The index has three separate guides: **Gifts — Polygon**, **Gifts — Dork**, and **Pale Raven reactions — IGN**. Gift tables retain items and caveats; reaction tables pair each prompt with its source answer. Cross-guide search links directly to matching characters. Every row stays expanded for native ⌘F/Ctrl+F. Each guide links to its publisher; original article metadata and provenance remain in the local corpus.
 
+## Public site
+
+Read the reference at **https://yizyace.github.io/fe-fw/**. Search, guide links, and browser find work without installing anything. The site never fetches publishers in the background.
+
+GitHub Actions runs the checks and deploys on pushes to the default branch, `feat/local-guide-library`. Repository **Settings → Pages → Source** must be **GitHub Actions**. The workflow can also run manually. Builds use the reviewed [`reference/library.json`](reference/library.json) snapshot and need no local corpus or publisher access.
+
+To update the public data after capturing and checking sources locally:
+
+```sh
+pnpm pages:snapshot
+# Review the reference/library.json diff, then commit it.
+pnpm test:pages
+```
+
+The snapshot contains only the compact reference view and source attribution. It excludes raw captures, historical images, import warnings, and original author/publication metadata. A snapshot export requires every registered guide; failed or partial exports leave the existing snapshot intact. Local captures are never automatically published or refreshed by CI.
+
+For a Pages build and a static-host preview:
+
+```sh
+pnpm build:pages
+pnpm preview:pages
+# http://127.0.0.1:4174/fe-fw/
+```
+
+The Pages build uses `/fe-fw/` for assets, data requests, and routing. It writes actual guide entry pages so bookmarks and refreshes return HTTP 200, plus a custom 404 page with a link home. Set `PAGES_BASE_PATH` when building for another site path. The local development build continues to use `/`. See [Vite’s Pages deployment guide](https://vite.dev/guide/static-deploy#github-pages) and [GitHub’s workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
 ## Get started
 
 Use Node **22.12 or newer** (tested with 22.13) and **pnpm 9.15.9**. If pnpm is unavailable, enable it with Corepack (`corepack enable`).
@@ -50,10 +76,11 @@ Imports save raw bytes before cleanup and atomically update that source’s curr
 
 ## Corpus and provenance
 
-Downloaded publisher content is **local only**. The public repository ignores `corpus/`, `public/generated/`, and `dist/`; do not force-add them. Article text, screenshots, and source images remain their publishers’ material. Attribution is preserved in every guide. Synthetic test fixtures are original examples, not copied publisher articles.
+Raw publisher captures and historical images remain **local only**. The reviewed data-only snapshot in `reference/library.json` is public and powers GitHub Pages. The public repository ignores `corpus/`, `public/generated/`, and `dist/`; do not force-add them. Article text, screenshots, and source images remain their publishers’ material. Attribution is preserved in every guide. Synthetic test fixtures are original examples, not copied publisher articles.
 
 ```text
 sources.json                             tracked registry
+reference/library.json                   reviewed public reference snapshot
 corpus/
   <source-id>/current.json                last successful capture ID
   <source-id>/captures/<capture-id>/
@@ -88,6 +115,8 @@ Local reference validation (2026-09-21): Polygon has 54 original table entries p
 - `scripts/reference.ts`: publisher-specific reference normalization, caveat preservation, character anchors, and regenerated search sections.
 - `scripts/corpus.ts`: fetch/browser/file acquisition, immutable captures, integrity verification (including historical assets), offline generation, and inventory.
 - `scripts/guides.ts`: command-line interface and fetch-to-browser fallback.
+- `scripts/pages.ts`: public snapshot export, isolated Pages build, and static guide entry pages.
+- `.github/workflows/pages.yml`: validation and GitHub Pages deployment.
 - `public/generated/library.json`: the browser’s only reference data input. Raw publisher HTML never enters the client bundle.
 
 There is no application backend, database, PWA, in-app importer, automatic refresh, or character database. Styling uses one system sans-serif family, follows the OS light/dark preference, and provides keyboard navigation and horizontally scrollable tables. Data remains in normal document flow with no sidebar, pagination, virtualization, or collapsed sections. The restrained layout follows [Impeccable’s distill guidance](https://github.com/pbakaus/impeccable/blob/main/plugin/skills/impeccable/reference/distill.md).
@@ -99,8 +128,11 @@ pnpm test
 pnpm build
 pnpm guides:verify
 pnpm test:browser
+pnpm test:pages
 ```
 
 Unit/integration tests cover extraction/sanitization, source normalization, caveats, empty cells, missing answers, intervening advertisement rows, search anchors, offline generation, image-free imports, historical integrity, and failed refresh preservation. Browser tests serve the production build with external requests blocked and assert zero image requests. They cover search/navigation, direct links, native find near page ends, keyboard scrolling, empty/missing/error states, and desktop/narrow layouts in both themes. Without captures the real-corpus check is skipped; the synthetic reader tests still run.
+
+The Pages browser suite serves a static directory without an SPA fallback and verifies project-path requests, direct guide reloads/anchors, and real 404 recovery in both themes and viewport sizes. It runs from the public snapshot even in a fresh checkout.
 
 Agent guidance lives in [AGENTS.md](AGENTS.md), with [CLAUDE.md](CLAUDE.md) routed to it and managed [CONSTITUTION.md](CONSTITUTION.md) preserved. Use the project skills [guide-ingestion](.agents/skills/guide-ingestion/SKILL.md) to add/refresh sources and [reader-development](.agents/skills/reader-development/SKILL.md) for app changes. Keep focused conventional commits; never commit captures or generated publisher assets.
