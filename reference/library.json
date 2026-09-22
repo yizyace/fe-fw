@@ -1,0 +1,982 @@
+{
+  "sources": [
+    {
+      "id": "polygon-gifts",
+      "url": "https://www.polygon.com/fire-emblem-fortunes-weave-best-gifts-each-character/",
+      "publisher": "Polygon",
+      "topic": "Character gifts",
+      "adapter": "polygon"
+    },
+    {
+      "id": "dork-gifts",
+      "url": "https://readdork.com/gaming/fire-emblem-fortunes-weave-best-gifts-each-character-19ac353e41",
+      "publisher": "Dork",
+      "topic": "Character gifts",
+      "adapter": "dork"
+    },
+    {
+      "id": "ign-pale-raven",
+      "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Pale_Raven_Bird_Time_Guide_-_List_of_Preferred_Reactions",
+      "publisher": "IGN",
+      "topic": "Pale Raven reactions",
+      "adapter": "ign"
+    }
+  ],
+  "guides": [
+    {
+      "id": "polygon-gifts",
+      "title": "Gifts — Polygon",
+      "publisher": "Polygon",
+      "topic": "Gifts",
+      "sourceUrl": "https://www.polygon.com/fire-emblem-fortunes-weave-best-gifts-each-character/",
+      "capturedAt": "2026-09-21T21:49:44.015Z",
+      "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"Gifts — Polygon\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Character</th><th scope=\"col\">Gifts and caveats</th></tr></thead><tbody><tr><th scope=\"row\" id=\"section-alexandra\">Alexandra</th><td>Horse items (like beard grass, mane ornament, horse grooming kit), Pegasus painting</td></tr><tr><th scope=\"row\" id=\"section-anatolia\">Anatolia</th><td>Bagua divination set, uncommon and rare books and fashion items (Eastern black silk, Tales of a Master, Tales of Adventure). Also likes common items in those categories.</td></tr><tr><th scope=\"row\" id=\"section-benditz\">Benditz</th><td>Weapons, books about tactics and military history, military medals, board games</td></tr><tr><th scope=\"row\" id=\"section-bonaventure\">Bonaventure</th><td>Books</td></tr><tr><th scope=\"row\" id=\"section-buccar\">Buccar</th><td>Fermented drinks (ghosh and shosh), military items, training items</td></tr><tr><th scope=\"row\" id=\"section-cai\">Cai</th><td>Horse items (beard grass, horse grooming kit, mane ornament). Also likes training items</td></tr><tr><th scope=\"row\" id=\"section-catania\">Catania</th><td>Coffee, paintings, any rare item (with a light teal symbol and a sparkle icon next to it)</td></tr><tr><th scope=\"row\" id=\"section-centurio\">Centurio</th><td>Spirituality items (protection figurine, magic trick set), coffee, training medal and other items for &quot;those who revere martial achievements,&quot; weapons (ceremonial spear, etc), training items (training pillar, training weights, board games)</td></tr><tr><th scope=\"row\" id=\"section-dadao\">Dadao</th><td>All Cervi drinks</td></tr><tr><th scope=\"row\" id=\"section-dante\">Dante</th><td>Coffee, books</td></tr><tr><th scope=\"row\" id=\"section-diego\">Diego</th><td>Archer items (decorative arrows, joint relief gloves, bow maintenance kit). Also books and board games, though not as much</td></tr><tr><th scope=\"row\" id=\"section-dietrich\">Dietrich</th><td>Pastries and other sweets, paintings, anything labeled for those who &quot;appreciate beauty&quot;</td></tr><tr><th scope=\"row\" id=\"section-esmeralda\">Esmeralda</th><td>Fishing items (fish hooks, fishing rod, fish eye, brined fish guts)</td></tr><tr><th scope=\"row\" id=\"section-fabio\">Fabio</th><td>Coffee</td></tr><tr><th scope=\"row\" id=\"section-fianna\">Fianna</th><td>Books, coffee, tea, strong seasonings</td></tr><tr><th scope=\"row\" id=\"section-gaitz\">Gaitz</th><td>Weapons, tea, horse items (beard grass, mane ornament, horse grooming kit)</td></tr><tr><th scope=\"row\" id=\"section-goliath\">Goliath</th><td>Coffee, board games</td></tr><tr><th scope=\"row\" id=\"section-guzran\">Guzran</th><td>Fermented drinks (ghosh and shosh)</td></tr><tr><th scope=\"row\" id=\"section-halvin\">Halvin</th><td>Vegetable items (seeds, bulbs, potted vegetables, not pickled vegetables), rare southern seeds and other agricultural items, magic trick set</td></tr><tr><th scope=\"row\" id=\"section-inyoni\">Inyoni</th><td>Archer items (decorative arrows, joint-relief gloves, bow maintenance kit), fishing items</td></tr><tr><th scope=\"row\" id=\"section-io\">Io</th><td>Horse items (beard grass, mane ornament, horse grooming kit)</td></tr><tr><th scope=\"row\" id=\"section-jasmine\">Jasmine</th><td>Board games, garum, items for people who &quot;love to cook&quot;</td></tr><tr><th scope=\"row\" id=\"section-jester\">Jester</th><td>Crafting knives, fashion items, honey pastries (not mellow or simple pastries), Saramis Sweets</td></tr><tr><th scope=\"row\" id=\"section-kiroc\">Kiroc</th><td>Flowers, fashion items</td></tr><tr><th scope=\"row\" id=\"section-leda\">Leda</th><td>Fashion items (including gemstones), paintings and other items for those &quot;who appreciate beauty&quot;</td></tr><tr><th scope=\"row\" id=\"section-lillian\">Lillian</th><td>Fashion items, flowers. Eastern earrings and blue rose bouquet are two of her favorites</td></tr><tr><th scope=\"row\" id=\"section-loretta\">Loretta</th><td>Pastries and other sweets</td></tr><tr><th scope=\"row\" id=\"section-ludia\">Ludia</th><td>Coffee, books, paintings</td></tr><tr><th scope=\"row\" id=\"section-lysander\">Lysander</th><td>Weapons (ceremonial spear), training items (training pillar, training weights), Imitation Medal</td></tr><tr><th scope=\"row\" id=\"section-majide\">Majide</th><td>Fermented drinks (ghosh and shosh)</td></tr><tr><th scope=\"row\" id=\"section-mikaela\">Mikaela</th><td>Coffee</td></tr><tr><th scope=\"row\" id=\"section-mu\">Mu</th><td>All Cervi drinks, pastries, coffee</td></tr><tr><th scope=\"row\" id=\"section-nezha\">Nezha</th><td>Vegetables, board games</td></tr><tr><th scope=\"row\" id=\"section-ninae\">Ninae</th><td>Flowers, paintings, Eastern Black Silk</td></tr><tr><th scope=\"row\" id=\"section-noctula\">Noctula</th><td>Training items (training pillar, training weights)</td></tr><tr><th scope=\"row\" id=\"section-nuzzuo\">Nuzzuo</th><td>Outdoor cooking set and other items for people who &quot;love to cook,&quot; vegetables</td></tr><tr><th scope=\"row\" id=\"section-nydine\">Nydine</th><td>Archery items (decorative arrows, joint relief gloves, bow maintenance kit), horse grooming kit. Also books Nydine, for example, loves horse grooming kits, but isn&#39;t so great with mane ornaments.</td></tr><tr><th scope=\"row\" id=\"section-olympia\">Olympia</th><td>Flowers, paintings, objects for &quot;lovers of beauty,&quot; board games</td></tr><tr><th scope=\"row\" id=\"section-orchel\">Orchel</th><td>Cooking items (garum, cookbooks, outdoor cooking set) and the rare spices item, paintings, books, rare southern seeds and other items for &quot;those who love agriculture&quot;</td></tr><tr><th scope=\"row\" id=\"section-peppe\">Peppe</th><td>Coffee. Will also accept board games</td></tr><tr><th scope=\"row\" id=\"section-peter\">Peter</th><td>All Cervi drinks, sweets, pastry cookbook</td></tr><tr><th scope=\"row\" id=\"section-seteth\">Seteth</th><td>Fishing items (fish hooks, fishing rod, fish eye, brined fish guts)</td></tr><tr><th scope=\"row\" id=\"section-sha-lan\">Sha Lan</th><td>Items for people who &quot;love to cook,&quot; tea</td></tr><tr><th scope=\"row\" id=\"section-simon\">Simon</th><td>Vegetables</td></tr><tr><th scope=\"row\" id=\"section-sirocco\">Sirocco</th><td>Fermented drinks (ghosh and shosh), paintings (especially a Portrait of Yu Phas), books</td></tr><tr><th scope=\"row\" id=\"section-sofia\">Sofia</th><td>Sweets, garum, items for people who &quot;love to cook&quot;</td></tr><tr><th scope=\"row\" id=\"section-talimun\">Talimun</th><td>Fermented drinks (ghosh and shosh), coffee, uncommon and rare books, board games, and paintings</td></tr><tr><th scope=\"row\" id=\"section-theodora\">Theodora</th><td>Portrait of Yu Phas. Also tolerates coffee, training items, fashion items, sturdy rucksacks, and cooking items</td></tr><tr><th scope=\"row\" id=\"section-tialla\">Tialla</th><td>Books, all Cervi drinks, board games</td></tr><tr><th scope=\"row\" id=\"section-tobias\">Tobias</th><td>Fermented drinks (ghosh and shosh)</td></tr><tr><th scope=\"row\" id=\"section-ultand\">Ultand</th><td>Garum, books, cookbooks and other items for people who &quot;love to cook&quot;</td></tr><tr><th scope=\"row\" id=\"section-ursula\">Ursula ​​</th><td>Coffee, board games, books, paintings, flowers</td></tr><tr><th scope=\"row\" id=\"section-yang-jie\">Yang Jie</th><td>Fermented drinks (ghosh and shosh), books</td></tr><tr><th scope=\"row\" id=\"section-zarcone\">Zarcone</th><td>Vegetables</td></tr><tr><th scope=\"row\" id=\"section-bertrand\">Bertrand</th><td>Bertrand is the exception. In Act 1, you can only give him gifts as Cai, and his bio straight-up tells you what he likes (garum).</td></tr></tbody></table></div>",
+      "text": "Alexandra\nHorse items (like beard grass, mane ornament, horse grooming kit), Pegasus painting\nAnatolia\nBagua divination set, uncommon and rare books and fashion items (Eastern black silk, Tales of a Master, Tales of Adventure). Also likes common items in those categories.\nBenditz\nWeapons, books about tactics and military history, military medals, board games\nBonaventure\nBooks\nBuccar\nFermented drinks (ghosh and shosh), military items, training items\nCai\nHorse items (beard grass, horse grooming kit, mane ornament). Also likes training items\nCatania\nCoffee, paintings, any rare item (with a light teal symbol and a sparkle icon next to it)\nCenturio\nSpirituality items (protection figurine, magic trick set), coffee, training medal and other items for \"those who revere martial achievements,\" weapons (ceremonial spear, etc), training items (training pillar, training weights, board games)\nDadao\nAll Cervi drinks\nDante\nCoffee, books\nDiego\nArcher items (decorative arrows, joint relief gloves, bow maintenance kit). Also books and board games, though not as much\nDietrich\nPastries and other sweets, paintings, anything labeled for those who \"appreciate beauty\"\nEsmeralda\nFishing items (fish hooks, fishing rod, fish eye, brined fish guts)\nFabio\nCoffee\nFianna\nBooks, coffee, tea, strong seasonings\nGaitz\nWeapons, tea, horse items (beard grass, mane ornament, horse grooming kit)\nGoliath\nCoffee, board games\nGuzran\nFermented drinks (ghosh and shosh)\nHalvin\nVegetable items (seeds, bulbs, potted vegetables, not pickled vegetables), rare southern seeds and other agricultural items, magic trick set\nInyoni\nArcher items (decorative arrows, joint-relief gloves, bow maintenance kit), fishing items\nIo\nHorse items (beard grass, mane ornament, horse grooming kit)\nJasmine\nBoard games, garum, items for people who \"love to cook\"\nJester\nCrafting knives, fashion items, honey pastries (not mellow or simple pastries), Saramis Sweets\nKiroc\nFlowers, fashion items\nLeda\nFashion items (including gemstones), paintings and other items for those \"who appreciate beauty\"\nLillian\nFashion items, flowers. Eastern earrings and blue rose bouquet are two of her favorites\nLoretta\nPastries and other sweets\nLudia\nCoffee, books, paintings\nLysander\nWeapons (ceremonial spear), training items (training pillar, training weights), Imitation Medal\nMajide\nFermented drinks (ghosh and shosh)\nMikaela\nCoffee\nMu\nAll Cervi drinks, pastries, coffee\nNezha\nVegetables, board games\nNinae\nFlowers, paintings, Eastern Black Silk\nNoctula\nTraining items (training pillar, training weights)\nNuzzuo\nOutdoor cooking set and other items for people who \"love to cook,\" vegetables\nNydine\nArchery items (decorative arrows, joint relief gloves, bow maintenance kit), horse grooming kit. Also books Nydine, for example, loves horse grooming kits, but isn't so great with mane ornaments.\nOlympia\nFlowers, paintings, objects for \"lovers of beauty,\" board games\nOrchel\nCooking items (garum, cookbooks, outdoor cooking set) and the rare spices item, paintings, books, rare southern seeds and other items for \"those who love agriculture\"\nPeppe\nCoffee. Will also accept board games\nPeter\nAll Cervi drinks, sweets, pastry cookbook\nSeteth\nFishing items (fish hooks, fishing rod, fish eye, brined fish guts)\nSha Lan\nItems for people who \"love to cook,\" tea\nSimon\nVegetables\nSirocco\nFermented drinks (ghosh and shosh), paintings (especially a Portrait of Yu Phas), books\nSofia\nSweets, garum, items for people who \"love to cook\"\nTalimun\nFermented drinks (ghosh and shosh), coffee, uncommon and rare books, board games, and paintings\nTheodora\nPortrait of Yu Phas. Also tolerates coffee, training items, fashion items, sturdy rucksacks, and cooking items\nTialla\nBooks, all Cervi drinks, board games\nTobias\nFermented drinks (ghosh and shosh)\nUltand\nGarum, books, cookbooks and other items for people who \"love to cook\"\nUrsula ​​\nCoffee, board games, books, paintings, flowers\nYang Jie\nFermented drinks (ghosh and shosh), books\nZarcone\nVegetables\nBertrand\nBertrand is the exception. In Act 1, you can only give him gifts as Cai, and his bio straight-up tells you what he likes (garum).",
+      "headings": [
+        {
+          "id": "section-alexandra",
+          "text": "Alexandra",
+          "level": 2
+        },
+        {
+          "id": "section-anatolia",
+          "text": "Anatolia",
+          "level": 2
+        },
+        {
+          "id": "section-benditz",
+          "text": "Benditz",
+          "level": 2
+        },
+        {
+          "id": "section-bonaventure",
+          "text": "Bonaventure",
+          "level": 2
+        },
+        {
+          "id": "section-buccar",
+          "text": "Buccar",
+          "level": 2
+        },
+        {
+          "id": "section-cai",
+          "text": "Cai",
+          "level": 2
+        },
+        {
+          "id": "section-catania",
+          "text": "Catania",
+          "level": 2
+        },
+        {
+          "id": "section-centurio",
+          "text": "Centurio",
+          "level": 2
+        },
+        {
+          "id": "section-dadao",
+          "text": "Dadao",
+          "level": 2
+        },
+        {
+          "id": "section-dante",
+          "text": "Dante",
+          "level": 2
+        },
+        {
+          "id": "section-diego",
+          "text": "Diego",
+          "level": 2
+        },
+        {
+          "id": "section-dietrich",
+          "text": "Dietrich",
+          "level": 2
+        },
+        {
+          "id": "section-esmeralda",
+          "text": "Esmeralda",
+          "level": 2
+        },
+        {
+          "id": "section-fabio",
+          "text": "Fabio",
+          "level": 2
+        },
+        {
+          "id": "section-fianna",
+          "text": "Fianna",
+          "level": 2
+        },
+        {
+          "id": "section-gaitz",
+          "text": "Gaitz",
+          "level": 2
+        },
+        {
+          "id": "section-goliath",
+          "text": "Goliath",
+          "level": 2
+        },
+        {
+          "id": "section-guzran",
+          "text": "Guzran",
+          "level": 2
+        },
+        {
+          "id": "section-halvin",
+          "text": "Halvin",
+          "level": 2
+        },
+        {
+          "id": "section-inyoni",
+          "text": "Inyoni",
+          "level": 2
+        },
+        {
+          "id": "section-io",
+          "text": "Io",
+          "level": 2
+        },
+        {
+          "id": "section-jasmine",
+          "text": "Jasmine",
+          "level": 2
+        },
+        {
+          "id": "section-jester",
+          "text": "Jester",
+          "level": 2
+        },
+        {
+          "id": "section-kiroc",
+          "text": "Kiroc",
+          "level": 2
+        },
+        {
+          "id": "section-leda",
+          "text": "Leda",
+          "level": 2
+        },
+        {
+          "id": "section-lillian",
+          "text": "Lillian",
+          "level": 2
+        },
+        {
+          "id": "section-loretta",
+          "text": "Loretta",
+          "level": 2
+        },
+        {
+          "id": "section-ludia",
+          "text": "Ludia",
+          "level": 2
+        },
+        {
+          "id": "section-lysander",
+          "text": "Lysander",
+          "level": 2
+        },
+        {
+          "id": "section-majide",
+          "text": "Majide",
+          "level": 2
+        },
+        {
+          "id": "section-mikaela",
+          "text": "Mikaela",
+          "level": 2
+        },
+        {
+          "id": "section-mu",
+          "text": "Mu",
+          "level": 2
+        },
+        {
+          "id": "section-nezha",
+          "text": "Nezha",
+          "level": 2
+        },
+        {
+          "id": "section-ninae",
+          "text": "Ninae",
+          "level": 2
+        },
+        {
+          "id": "section-noctula",
+          "text": "Noctula",
+          "level": 2
+        },
+        {
+          "id": "section-nuzzuo",
+          "text": "Nuzzuo",
+          "level": 2
+        },
+        {
+          "id": "section-nydine",
+          "text": "Nydine",
+          "level": 2
+        },
+        {
+          "id": "section-olympia",
+          "text": "Olympia",
+          "level": 2
+        },
+        {
+          "id": "section-orchel",
+          "text": "Orchel",
+          "level": 2
+        },
+        {
+          "id": "section-peppe",
+          "text": "Peppe",
+          "level": 2
+        },
+        {
+          "id": "section-peter",
+          "text": "Peter",
+          "level": 2
+        },
+        {
+          "id": "section-seteth",
+          "text": "Seteth",
+          "level": 2
+        },
+        {
+          "id": "section-sha-lan",
+          "text": "Sha Lan",
+          "level": 2
+        },
+        {
+          "id": "section-simon",
+          "text": "Simon",
+          "level": 2
+        },
+        {
+          "id": "section-sirocco",
+          "text": "Sirocco",
+          "level": 2
+        },
+        {
+          "id": "section-sofia",
+          "text": "Sofia",
+          "level": 2
+        },
+        {
+          "id": "section-talimun",
+          "text": "Talimun",
+          "level": 2
+        },
+        {
+          "id": "section-theodora",
+          "text": "Theodora",
+          "level": 2
+        },
+        {
+          "id": "section-tialla",
+          "text": "Tialla",
+          "level": 2
+        },
+        {
+          "id": "section-tobias",
+          "text": "Tobias",
+          "level": 2
+        },
+        {
+          "id": "section-ultand",
+          "text": "Ultand",
+          "level": 2
+        },
+        {
+          "id": "section-ursula",
+          "text": "Ursula ​​",
+          "level": 2
+        },
+        {
+          "id": "section-yang-jie",
+          "text": "Yang Jie",
+          "level": 2
+        },
+        {
+          "id": "section-zarcone",
+          "text": "Zarcone",
+          "level": 2
+        },
+        {
+          "id": "section-bertrand",
+          "text": "Bertrand",
+          "level": 2
+        }
+      ],
+      "sections": [
+        {
+          "headingId": "section-alexandra",
+          "heading": "Alexandra",
+          "text": "Alexandra\nHorse items (like beard grass, mane ornament, horse grooming kit), Pegasus painting"
+        },
+        {
+          "headingId": "section-anatolia",
+          "heading": "Anatolia",
+          "text": "Anatolia\nBagua divination set, uncommon and rare books and fashion items (Eastern black silk, Tales of a Master, Tales of Adventure). Also likes common items in those categories."
+        },
+        {
+          "headingId": "section-benditz",
+          "heading": "Benditz",
+          "text": "Benditz\nWeapons, books about tactics and military history, military medals, board games"
+        },
+        {
+          "headingId": "section-bonaventure",
+          "heading": "Bonaventure",
+          "text": "Bonaventure\nBooks"
+        },
+        {
+          "headingId": "section-buccar",
+          "heading": "Buccar",
+          "text": "Buccar\nFermented drinks (ghosh and shosh), military items, training items"
+        },
+        {
+          "headingId": "section-cai",
+          "heading": "Cai",
+          "text": "Cai\nHorse items (beard grass, horse grooming kit, mane ornament). Also likes training items"
+        },
+        {
+          "headingId": "section-catania",
+          "heading": "Catania",
+          "text": "Catania\nCoffee, paintings, any rare item (with a light teal symbol and a sparkle icon next to it)"
+        },
+        {
+          "headingId": "section-centurio",
+          "heading": "Centurio",
+          "text": "Centurio\nSpirituality items (protection figurine, magic trick set), coffee, training medal and other items for \"those who revere martial achievements,\" weapons (ceremonial spear, etc), training items (training pillar, training weights, board games)"
+        },
+        {
+          "headingId": "section-dadao",
+          "heading": "Dadao",
+          "text": "Dadao\nAll Cervi drinks"
+        },
+        {
+          "headingId": "section-dante",
+          "heading": "Dante",
+          "text": "Dante\nCoffee, books"
+        },
+        {
+          "headingId": "section-diego",
+          "heading": "Diego",
+          "text": "Diego\nArcher items (decorative arrows, joint relief gloves, bow maintenance kit). Also books and board games, though not as much"
+        },
+        {
+          "headingId": "section-dietrich",
+          "heading": "Dietrich",
+          "text": "Dietrich\nPastries and other sweets, paintings, anything labeled for those who \"appreciate beauty\""
+        },
+        {
+          "headingId": "section-esmeralda",
+          "heading": "Esmeralda",
+          "text": "Esmeralda\nFishing items (fish hooks, fishing rod, fish eye, brined fish guts)"
+        },
+        {
+          "headingId": "section-fabio",
+          "heading": "Fabio",
+          "text": "Fabio\nCoffee"
+        },
+        {
+          "headingId": "section-fianna",
+          "heading": "Fianna",
+          "text": "Fianna\nBooks, coffee, tea, strong seasonings"
+        },
+        {
+          "headingId": "section-gaitz",
+          "heading": "Gaitz",
+          "text": "Gaitz\nWeapons, tea, horse items (beard grass, mane ornament, horse grooming kit)"
+        },
+        {
+          "headingId": "section-goliath",
+          "heading": "Goliath",
+          "text": "Goliath\nCoffee, board games"
+        },
+        {
+          "headingId": "section-guzran",
+          "heading": "Guzran",
+          "text": "Guzran\nFermented drinks (ghosh and shosh)"
+        },
+        {
+          "headingId": "section-halvin",
+          "heading": "Halvin",
+          "text": "Halvin\nVegetable items (seeds, bulbs, potted vegetables, not pickled vegetables), rare southern seeds and other agricultural items, magic trick set"
+        },
+        {
+          "headingId": "section-inyoni",
+          "heading": "Inyoni",
+          "text": "Inyoni\nArcher items (decorative arrows, joint-relief gloves, bow maintenance kit), fishing items"
+        },
+        {
+          "headingId": "section-io",
+          "heading": "Io",
+          "text": "Io\nHorse items (beard grass, mane ornament, horse grooming kit)"
+        },
+        {
+          "headingId": "section-jasmine",
+          "heading": "Jasmine",
+          "text": "Jasmine\nBoard games, garum, items for people who \"love to cook\""
+        },
+        {
+          "headingId": "section-jester",
+          "heading": "Jester",
+          "text": "Jester\nCrafting knives, fashion items, honey pastries (not mellow or simple pastries), Saramis Sweets"
+        },
+        {
+          "headingId": "section-kiroc",
+          "heading": "Kiroc",
+          "text": "Kiroc\nFlowers, fashion items"
+        },
+        {
+          "headingId": "section-leda",
+          "heading": "Leda",
+          "text": "Leda\nFashion items (including gemstones), paintings and other items for those \"who appreciate beauty\""
+        },
+        {
+          "headingId": "section-lillian",
+          "heading": "Lillian",
+          "text": "Lillian\nFashion items, flowers. Eastern earrings and blue rose bouquet are two of her favorites"
+        },
+        {
+          "headingId": "section-loretta",
+          "heading": "Loretta",
+          "text": "Loretta\nPastries and other sweets"
+        },
+        {
+          "headingId": "section-ludia",
+          "heading": "Ludia",
+          "text": "Ludia\nCoffee, books, paintings"
+        },
+        {
+          "headingId": "section-lysander",
+          "heading": "Lysander",
+          "text": "Lysander\nWeapons (ceremonial spear), training items (training pillar, training weights), Imitation Medal"
+        },
+        {
+          "headingId": "section-majide",
+          "heading": "Majide",
+          "text": "Majide\nFermented drinks (ghosh and shosh)"
+        },
+        {
+          "headingId": "section-mikaela",
+          "heading": "Mikaela",
+          "text": "Mikaela\nCoffee"
+        },
+        {
+          "headingId": "section-mu",
+          "heading": "Mu",
+          "text": "Mu\nAll Cervi drinks, pastries, coffee"
+        },
+        {
+          "headingId": "section-nezha",
+          "heading": "Nezha",
+          "text": "Nezha\nVegetables, board games"
+        },
+        {
+          "headingId": "section-ninae",
+          "heading": "Ninae",
+          "text": "Ninae\nFlowers, paintings, Eastern Black Silk"
+        },
+        {
+          "headingId": "section-noctula",
+          "heading": "Noctula",
+          "text": "Noctula\nTraining items (training pillar, training weights)"
+        },
+        {
+          "headingId": "section-nuzzuo",
+          "heading": "Nuzzuo",
+          "text": "Nuzzuo\nOutdoor cooking set and other items for people who \"love to cook,\" vegetables"
+        },
+        {
+          "headingId": "section-nydine",
+          "heading": "Nydine",
+          "text": "Nydine\nArchery items (decorative arrows, joint relief gloves, bow maintenance kit), horse grooming kit. Also books Nydine, for example, loves horse grooming kits, but isn't so great with mane ornaments."
+        },
+        {
+          "headingId": "section-olympia",
+          "heading": "Olympia",
+          "text": "Olympia\nFlowers, paintings, objects for \"lovers of beauty,\" board games"
+        },
+        {
+          "headingId": "section-orchel",
+          "heading": "Orchel",
+          "text": "Orchel\nCooking items (garum, cookbooks, outdoor cooking set) and the rare spices item, paintings, books, rare southern seeds and other items for \"those who love agriculture\""
+        },
+        {
+          "headingId": "section-peppe",
+          "heading": "Peppe",
+          "text": "Peppe\nCoffee. Will also accept board games"
+        },
+        {
+          "headingId": "section-peter",
+          "heading": "Peter",
+          "text": "Peter\nAll Cervi drinks, sweets, pastry cookbook"
+        },
+        {
+          "headingId": "section-seteth",
+          "heading": "Seteth",
+          "text": "Seteth\nFishing items (fish hooks, fishing rod, fish eye, brined fish guts)"
+        },
+        {
+          "headingId": "section-sha-lan",
+          "heading": "Sha Lan",
+          "text": "Sha Lan\nItems for people who \"love to cook,\" tea"
+        },
+        {
+          "headingId": "section-simon",
+          "heading": "Simon",
+          "text": "Simon\nVegetables"
+        },
+        {
+          "headingId": "section-sirocco",
+          "heading": "Sirocco",
+          "text": "Sirocco\nFermented drinks (ghosh and shosh), paintings (especially a Portrait of Yu Phas), books"
+        },
+        {
+          "headingId": "section-sofia",
+          "heading": "Sofia",
+          "text": "Sofia\nSweets, garum, items for people who \"love to cook\""
+        },
+        {
+          "headingId": "section-talimun",
+          "heading": "Talimun",
+          "text": "Talimun\nFermented drinks (ghosh and shosh), coffee, uncommon and rare books, board games, and paintings"
+        },
+        {
+          "headingId": "section-theodora",
+          "heading": "Theodora",
+          "text": "Theodora\nPortrait of Yu Phas. Also tolerates coffee, training items, fashion items, sturdy rucksacks, and cooking items"
+        },
+        {
+          "headingId": "section-tialla",
+          "heading": "Tialla",
+          "text": "Tialla\nBooks, all Cervi drinks, board games"
+        },
+        {
+          "headingId": "section-tobias",
+          "heading": "Tobias",
+          "text": "Tobias\nFermented drinks (ghosh and shosh)"
+        },
+        {
+          "headingId": "section-ultand",
+          "heading": "Ultand",
+          "text": "Ultand\nGarum, books, cookbooks and other items for people who \"love to cook\""
+        },
+        {
+          "headingId": "section-ursula",
+          "heading": "Ursula ​​",
+          "text": "Ursula ​​\nCoffee, board games, books, paintings, flowers"
+        },
+        {
+          "headingId": "section-yang-jie",
+          "heading": "Yang Jie",
+          "text": "Yang Jie\nFermented drinks (ghosh and shosh), books"
+        },
+        {
+          "headingId": "section-zarcone",
+          "heading": "Zarcone",
+          "text": "Zarcone\nVegetables"
+        },
+        {
+          "headingId": "section-bertrand",
+          "heading": "Bertrand",
+          "text": "Bertrand\nBertrand is the exception. In Act 1, you can only give him gifts as Cai, and his bio straight-up tells you what he likes (garum)."
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "dork-gifts",
+      "title": "Gifts — Dork",
+      "publisher": "Dork",
+      "topic": "Gifts",
+      "sourceUrl": "https://readdork.com/gaming/fire-emblem-fortunes-weave-best-gifts-each-character-19ac353e41",
+      "capturedAt": "2026-09-21T21:49:45.447Z",
+      "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"Gifts — Dork\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Character</th><th scope=\"col\">Gifts and caveats</th></tr></thead><tbody><tr><th scope=\"row\" id=\"section-alexandra-anatolia-benditz-bonaventure\">Alexandra, Anatolia, Benditz, Bonaventure</th><td>Alexandra likes horse items including beard grass, mane ornaments and grooming kits, plus the Pegasus painting. Anatolia responds to books and fashion, with Eastern Black Silk, Tales of a Master and Tales of Adventure especially useful. Benditz likes weapons, tactical and military-history books, military medals and board games; Bonaventure is a straightforward books recipient.</td></tr><tr><th scope=\"row\" id=\"section-buccar-cai-catania-dadao\">Buccar, Cai, Catania, Dadao</th><td>Buccar likes fermented drinks such as ghosh and shosh, alongside military and training items. Cai takes horse gifts and training equipment. Catania likes coffee, paintings and rare items, making her a good recipient for anything marked with the rare sparkle icon. Dadao likes every Cervi drink.</td></tr><tr><th scope=\"row\" id=\"section-dante-diego-dietrich-esmeralda\">Dante, Diego, Dietrich, Esmeralda</th><td>Dante likes coffee and books. Diego prefers archery items such as decorative arrows, joint-relief gloves and bow-maintenance kits, though books and board games also work. Dietrich likes pastries, paintings and items intended for people who appreciate beauty. Esmeralda wants fishing items, including hooks, rods, fish eye and brined fish guts.</td></tr><tr><th scope=\"row\" id=\"section-fabio-fianna-gaitz\">Fabio, Fianna, Gaitz</th><td>Fabio likes coffee. Fianna is flexible between books, coffee, tea and strong seasonings. Gaitz likes weapons, tea and horse items, so beard grass, mane ornaments and grooming kits all have a sensible home.</td></tr><tr><th scope=\"row\" id=\"section-goliath-guzran-halvin-inyoni-io\">Goliath, Guzran, Halvin, Inyoni, Io</th><td>Goliath likes coffee and board games, while Guzran likes fermented drinks. Halvin prefers vegetable items such as seeds, bulbs and potted vegetables, with a magic set another option. Inyoni likes archery and fishing equipment. Io is another dependable recipient for horse items.</td></tr><tr><th scope=\"row\" id=\"section-jasmine-jester-kiroc-leda\">Jasmine, Jester, Kiroc, Leda</th><td>Jasmine likes board games, garum and cooking-oriented gifts. Jester’s preferences span crafting knives, fashion, pastries and Saramis Sweets. Kiroc likes flowers and fashion. Leda responds to fashion, including gemstones, as well as paintings and other gifts for beauty lovers.</td></tr><tr><th scope=\"row\" id=\"section-lillian-loretta-ludia-lysander\">Lillian, Loretta, Ludia, Lysander</th><td>Lillian likes fashion and flowers; Eastern earrings and a blue rose bouquet are particularly strong choices. Loretta likes pastries and sweets. Ludia takes coffee, books and paintings. Lysander likes weapons, training gear such as a training pillar or weights, and an Imitation Medal.</td></tr><tr><th scope=\"row\" id=\"section-majide-mikaela-mu-nezha-ninae-noctula\">Majide, Mikaela, Mu, Nezha, Ninae, Noctula</th><td>Majide likes fermented drinks. Mikaela likes coffee. Mu likes Cervi drinks, pastries and coffee. Nezha likes vegetables and board games. Ninae likes flowers, paintings and Eastern Black Silk. Noctula is best served by training equipment.</td></tr><tr><th scope=\"row\" id=\"section-nuzzuo-nydine\">Nuzzuo, Nydine</th><td>Nuzzuo likes the outdoor cooking set, other cooking-lover items and vegetables. Nydine likes archery items and horse grooming kits, but the kit is safer than every horse-themed gift: her interest is in caring for orniuses, rather than mane ornaments. Books are another useful option.</td></tr><tr><th scope=\"row\" id=\"section-olympia-peppe-peter-seteth-sha-lan\">Olympia, Peppe, Peter, Seteth, Sha Lan</th><td>Olympia likes flowers, paintings, beauty-lover items and board games. Peppe likes coffee. Peter takes Cervi drinks, sweets and the pastry cookbook. Seteth likes fishing equipment, while Sha Lan likes cooking-oriented gifts and tea.</td></tr><tr><th scope=\"row\" id=\"section-simon-sirocco-sofia-talimun\">Simon, Sirocco, Sofia, Talimun</th><td>Simon likes vegetables. Sirocco likes fermented drinks, books and paintings, particularly a Portrait of Yu Phas. Sofia likes sweets, garum and cooking-oriented items. Talimun can take fermented drinks, coffee, uncommon or rare books, board games and paintings.</td></tr><tr><th scope=\"row\" id=\"section-theodora\">Theodora</th><td>Theodora’s standout present is the Portrait of Yu Phas. She tolerates coffee, training items, fashion, sturdy rucksacks and cooking items, but the portrait is the clear choice when one is available.</td></tr><tr><th scope=\"row\" id=\"section-tialla-ultand-ursula\">Tialla, Ultand, Ursula</th><td>Tialla likes books, Cervi drinks and board games. Ultand likes garum, books, cookbooks and other cooking-lover gifts. Ursula accepts coffee, board games, books, paintings and flowers, giving surplus items from several categories somewhere useful to go.</td></tr><tr><th scope=\"row\" id=\"section-yang-jie-zarcone-bertrand\">Yang Jie, Zarcone, Bertrand</th><td>Yang Jie likes fermented drinks and books. Zarcone likes vegetables. Bertrand is a special early case: during Act 1, only Cai can give him a gift, and his profile identifies garum as the answer.</td></tr></tbody></table></div>",
+      "text": "Alexandra, Anatolia, Benditz, Bonaventure\nAlexandra likes horse items including beard grass, mane ornaments and grooming kits, plus the Pegasus painting. Anatolia responds to books and fashion, with Eastern Black Silk, Tales of a Master and Tales of Adventure especially useful. Benditz likes weapons, tactical and military-history books, military medals and board games; Bonaventure is a straightforward books recipient.\nBuccar, Cai, Catania, Dadao\nBuccar likes fermented drinks such as ghosh and shosh, alongside military and training items. Cai takes horse gifts and training equipment. Catania likes coffee, paintings and rare items, making her a good recipient for anything marked with the rare sparkle icon. Dadao likes every Cervi drink.\nDante, Diego, Dietrich, Esmeralda\nDante likes coffee and books. Diego prefers archery items such as decorative arrows, joint-relief gloves and bow-maintenance kits, though books and board games also work. Dietrich likes pastries, paintings and items intended for people who appreciate beauty. Esmeralda wants fishing items, including hooks, rods, fish eye and brined fish guts.\nFabio, Fianna, Gaitz\nFabio likes coffee. Fianna is flexible between books, coffee, tea and strong seasonings. Gaitz likes weapons, tea and horse items, so beard grass, mane ornaments and grooming kits all have a sensible home.\nGoliath, Guzran, Halvin, Inyoni, Io\nGoliath likes coffee and board games, while Guzran likes fermented drinks. Halvin prefers vegetable items such as seeds, bulbs and potted vegetables, with a magic set another option. Inyoni likes archery and fishing equipment. Io is another dependable recipient for horse items.\nJasmine, Jester, Kiroc, Leda\nJasmine likes board games, garum and cooking-oriented gifts. Jester’s preferences span crafting knives, fashion, pastries and Saramis Sweets. Kiroc likes flowers and fashion. Leda responds to fashion, including gemstones, as well as paintings and other gifts for beauty lovers.\nLillian, Loretta, Ludia, Lysander\nLillian likes fashion and flowers; Eastern earrings and a blue rose bouquet are particularly strong choices. Loretta likes pastries and sweets. Ludia takes coffee, books and paintings. Lysander likes weapons, training gear such as a training pillar or weights, and an Imitation Medal.\nMajide, Mikaela, Mu, Nezha, Ninae, Noctula\nMajide likes fermented drinks. Mikaela likes coffee. Mu likes Cervi drinks, pastries and coffee. Nezha likes vegetables and board games. Ninae likes flowers, paintings and Eastern Black Silk. Noctula is best served by training equipment.\nNuzzuo, Nydine\nNuzzuo likes the outdoor cooking set, other cooking-lover items and vegetables. Nydine likes archery items and horse grooming kits, but the kit is safer than every horse-themed gift: her interest is in caring for orniuses, rather than mane ornaments. Books are another useful option.\nOlympia, Peppe, Peter, Seteth, Sha Lan\nOlympia likes flowers, paintings, beauty-lover items and board games. Peppe likes coffee. Peter takes Cervi drinks, sweets and the pastry cookbook. Seteth likes fishing equipment, while Sha Lan likes cooking-oriented gifts and tea.\nSimon, Sirocco, Sofia, Talimun\nSimon likes vegetables. Sirocco likes fermented drinks, books and paintings, particularly a Portrait of Yu Phas. Sofia likes sweets, garum and cooking-oriented items. Talimun can take fermented drinks, coffee, uncommon or rare books, board games and paintings.\nTheodora\nTheodora’s standout present is the Portrait of Yu Phas. She tolerates coffee, training items, fashion, sturdy rucksacks and cooking items, but the portrait is the clear choice when one is available.\nTialla, Ultand, Ursula\nTialla likes books, Cervi drinks and board games. Ultand likes garum, books, cookbooks and other cooking-lover gifts. Ursula accepts coffee, board games, books, paintings and flowers, giving surplus items from several categories somewhere useful to go.\nYang Jie, Zarcone, Bertrand\nYang Jie likes fermented drinks and books. Zarcone likes vegetables. Bertrand is a special early case: during Act 1, only Cai can give him a gift, and his profile identifies garum as the answer.",
+      "headings": [
+        {
+          "id": "section-alexandra-anatolia-benditz-bonaventure",
+          "text": "Alexandra, Anatolia, Benditz, Bonaventure",
+          "level": 2
+        },
+        {
+          "id": "section-buccar-cai-catania-dadao",
+          "text": "Buccar, Cai, Catania, Dadao",
+          "level": 2
+        },
+        {
+          "id": "section-dante-diego-dietrich-esmeralda",
+          "text": "Dante, Diego, Dietrich, Esmeralda",
+          "level": 2
+        },
+        {
+          "id": "section-fabio-fianna-gaitz",
+          "text": "Fabio, Fianna, Gaitz",
+          "level": 2
+        },
+        {
+          "id": "section-goliath-guzran-halvin-inyoni-io",
+          "text": "Goliath, Guzran, Halvin, Inyoni, Io",
+          "level": 2
+        },
+        {
+          "id": "section-jasmine-jester-kiroc-leda",
+          "text": "Jasmine, Jester, Kiroc, Leda",
+          "level": 2
+        },
+        {
+          "id": "section-lillian-loretta-ludia-lysander",
+          "text": "Lillian, Loretta, Ludia, Lysander",
+          "level": 2
+        },
+        {
+          "id": "section-majide-mikaela-mu-nezha-ninae-noctula",
+          "text": "Majide, Mikaela, Mu, Nezha, Ninae, Noctula",
+          "level": 2
+        },
+        {
+          "id": "section-nuzzuo-nydine",
+          "text": "Nuzzuo, Nydine",
+          "level": 2
+        },
+        {
+          "id": "section-olympia-peppe-peter-seteth-sha-lan",
+          "text": "Olympia, Peppe, Peter, Seteth, Sha Lan",
+          "level": 2
+        },
+        {
+          "id": "section-simon-sirocco-sofia-talimun",
+          "text": "Simon, Sirocco, Sofia, Talimun",
+          "level": 2
+        },
+        {
+          "id": "section-theodora",
+          "text": "Theodora",
+          "level": 2
+        },
+        {
+          "id": "section-tialla-ultand-ursula",
+          "text": "Tialla, Ultand, Ursula",
+          "level": 2
+        },
+        {
+          "id": "section-yang-jie-zarcone-bertrand",
+          "text": "Yang Jie, Zarcone, Bertrand",
+          "level": 2
+        }
+      ],
+      "sections": [
+        {
+          "headingId": "section-alexandra-anatolia-benditz-bonaventure",
+          "heading": "Alexandra, Anatolia, Benditz, Bonaventure",
+          "text": "Alexandra, Anatolia, Benditz, Bonaventure\nAlexandra likes horse items including beard grass, mane ornaments and grooming kits, plus the Pegasus painting. Anatolia responds to books and fashion, with Eastern Black Silk, Tales of a Master and Tales of Adventure especially useful. Benditz likes weapons, tactical and military-history books, military medals and board games; Bonaventure is a straightforward books recipient."
+        },
+        {
+          "headingId": "section-buccar-cai-catania-dadao",
+          "heading": "Buccar, Cai, Catania, Dadao",
+          "text": "Buccar, Cai, Catania, Dadao\nBuccar likes fermented drinks such as ghosh and shosh, alongside military and training items. Cai takes horse gifts and training equipment. Catania likes coffee, paintings and rare items, making her a good recipient for anything marked with the rare sparkle icon. Dadao likes every Cervi drink."
+        },
+        {
+          "headingId": "section-dante-diego-dietrich-esmeralda",
+          "heading": "Dante, Diego, Dietrich, Esmeralda",
+          "text": "Dante, Diego, Dietrich, Esmeralda\nDante likes coffee and books. Diego prefers archery items such as decorative arrows, joint-relief gloves and bow-maintenance kits, though books and board games also work. Dietrich likes pastries, paintings and items intended for people who appreciate beauty. Esmeralda wants fishing items, including hooks, rods, fish eye and brined fish guts."
+        },
+        {
+          "headingId": "section-fabio-fianna-gaitz",
+          "heading": "Fabio, Fianna, Gaitz",
+          "text": "Fabio, Fianna, Gaitz\nFabio likes coffee. Fianna is flexible between books, coffee, tea and strong seasonings. Gaitz likes weapons, tea and horse items, so beard grass, mane ornaments and grooming kits all have a sensible home."
+        },
+        {
+          "headingId": "section-goliath-guzran-halvin-inyoni-io",
+          "heading": "Goliath, Guzran, Halvin, Inyoni, Io",
+          "text": "Goliath, Guzran, Halvin, Inyoni, Io\nGoliath likes coffee and board games, while Guzran likes fermented drinks. Halvin prefers vegetable items such as seeds, bulbs and potted vegetables, with a magic set another option. Inyoni likes archery and fishing equipment. Io is another dependable recipient for horse items."
+        },
+        {
+          "headingId": "section-jasmine-jester-kiroc-leda",
+          "heading": "Jasmine, Jester, Kiroc, Leda",
+          "text": "Jasmine, Jester, Kiroc, Leda\nJasmine likes board games, garum and cooking-oriented gifts. Jester’s preferences span crafting knives, fashion, pastries and Saramis Sweets. Kiroc likes flowers and fashion. Leda responds to fashion, including gemstones, as well as paintings and other gifts for beauty lovers."
+        },
+        {
+          "headingId": "section-lillian-loretta-ludia-lysander",
+          "heading": "Lillian, Loretta, Ludia, Lysander",
+          "text": "Lillian, Loretta, Ludia, Lysander\nLillian likes fashion and flowers; Eastern earrings and a blue rose bouquet are particularly strong choices. Loretta likes pastries and sweets. Ludia takes coffee, books and paintings. Lysander likes weapons, training gear such as a training pillar or weights, and an Imitation Medal."
+        },
+        {
+          "headingId": "section-majide-mikaela-mu-nezha-ninae-noctula",
+          "heading": "Majide, Mikaela, Mu, Nezha, Ninae, Noctula",
+          "text": "Majide, Mikaela, Mu, Nezha, Ninae, Noctula\nMajide likes fermented drinks. Mikaela likes coffee. Mu likes Cervi drinks, pastries and coffee. Nezha likes vegetables and board games. Ninae likes flowers, paintings and Eastern Black Silk. Noctula is best served by training equipment."
+        },
+        {
+          "headingId": "section-nuzzuo-nydine",
+          "heading": "Nuzzuo, Nydine",
+          "text": "Nuzzuo, Nydine\nNuzzuo likes the outdoor cooking set, other cooking-lover items and vegetables. Nydine likes archery items and horse grooming kits, but the kit is safer than every horse-themed gift: her interest is in caring for orniuses, rather than mane ornaments. Books are another useful option."
+        },
+        {
+          "headingId": "section-olympia-peppe-peter-seteth-sha-lan",
+          "heading": "Olympia, Peppe, Peter, Seteth, Sha Lan",
+          "text": "Olympia, Peppe, Peter, Seteth, Sha Lan\nOlympia likes flowers, paintings, beauty-lover items and board games. Peppe likes coffee. Peter takes Cervi drinks, sweets and the pastry cookbook. Seteth likes fishing equipment, while Sha Lan likes cooking-oriented gifts and tea."
+        },
+        {
+          "headingId": "section-simon-sirocco-sofia-talimun",
+          "heading": "Simon, Sirocco, Sofia, Talimun",
+          "text": "Simon, Sirocco, Sofia, Talimun\nSimon likes vegetables. Sirocco likes fermented drinks, books and paintings, particularly a Portrait of Yu Phas. Sofia likes sweets, garum and cooking-oriented items. Talimun can take fermented drinks, coffee, uncommon or rare books, board games and paintings."
+        },
+        {
+          "headingId": "section-theodora",
+          "heading": "Theodora",
+          "text": "Theodora\nTheodora’s standout present is the Portrait of Yu Phas. She tolerates coffee, training items, fashion, sturdy rucksacks and cooking items, but the portrait is the clear choice when one is available."
+        },
+        {
+          "headingId": "section-tialla-ultand-ursula",
+          "heading": "Tialla, Ultand, Ursula",
+          "text": "Tialla, Ultand, Ursula\nTialla likes books, Cervi drinks and board games. Ultand likes garum, books, cookbooks and other cooking-lover gifts. Ursula accepts coffee, board games, books, paintings and flowers, giving surplus items from several categories somewhere useful to go."
+        },
+        {
+          "headingId": "section-yang-jie-zarcone-bertrand",
+          "heading": "Yang Jie, Zarcone, Bertrand",
+          "text": "Yang Jie, Zarcone, Bertrand\nYang Jie likes fermented drinks and books. Zarcone likes vegetables. Bertrand is a special early case: during Act 1, only Cai can give him a gift, and his profile identifies garum as the answer."
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ign-pale-raven",
+      "title": "Pale Raven reactions — IGN",
+      "publisher": "IGN",
+      "topic": "Pale Raven reactions",
+      "sourceUrl": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Pale_Raven_Bird_Time_Guide_-_List_of_Preferred_Reactions",
+      "capturedAt": "2026-09-21T21:49:46.423Z",
+      "html": "<h2 id=\"section-cai-bird-time-reactions\">Cai</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Cai reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;Today&#39;s a perfect day for fishing!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;It&#39;s nice to unwind a little sometimes, huh?&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;I wonder what the world looks like through your eyes.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;Sometimes, it&#39;s like people can guess what&#39;s on my mind.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;I can&#39;t stand cowardice.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I hear pretty birdsong sometimes. Is that you?&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;Do you think I&#39;ll ever be better with a spear than my dad?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;How do you become an adult, anyway?&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;It&#39;s neat how quick birds can move. You look like you could dodge any attack!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I bet it&#39;d be fun to play hide-and-seek with you!&quot;</th><td>Flap your wings</td></tr></tbody></table></div><h2 id=\"section-peter-bird-time-reactions\">Peter</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Peter reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;Taking it easy makes me sleepy...&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;You make me feel like I can face even the most difficult things in life.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;We should go together and pick some of the fruit!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I like clouds. They&#39;re so big, and its neat to see all the shapes they can take.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;Some animals make all kinds of racket.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;It&#39;s nice to walk around the forest and listen to all the sounds the animals make, huh?&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;I had a dream about a beautiful bird...&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Everyone&#39;s fighting. It&#39;s scary, but I&#39;m doing my best!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;What should I do when I get so scared my legs start shaking and I can&#39;t move?&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I just don&#39;t know what to do about all these feelings I have to Tialla.&quot;</th><td>Sing a beautiful tune</td></tr></tbody></table></div><h2 id=\"section-tialla-bird-time-reactions\">Tialla</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Tialla reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;It&#39;s bad to overthink things, isn&#39;t it?&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;Technique is important, yes. But without knowledge of why it works, it won&#39;t be of much use.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;If something bad is going to happen no matter what, is there any point in fighting it?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;These glasses are pretty nice, don&#39;t you think?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;You have such beautiful plumage. Do you mind if I take a closer look?&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I like to lie in the warm sun. Do you like it too?&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I might be inexperienced, but I&#39;ve studied hard and learned more than most people!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I remember being with Grandpa when I was little. We heard a bard sing the prettiest song.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;I can see such intelligence in your eyes. I think we could get along!&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;I&#39;d love to be a bird. I&#39;d fly through open windows and right into the temple library.&quot;</th><td>Flap your wings</td></tr></tbody></table></div><h2 id=\"section-ultand-bird-time-reactions\">Ultand</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Ultand reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;I enjoy a good fish dinner, but you can&#39;t eat nothing but fish every day, can you?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;I feel like sometimes there&#39;s just no avoiding snapping at your superiors.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Do you think I&#39;ll have a happy family in the future?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I can save money, yes, but I feel like the odds are low that it&#39;ll start increasing on its own.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;I&#39;ve been so exhausted lately. I could really do with some pampering...&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;What do you do when there&#39;s someone you like and you want them to notice you?&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I find just looking at you to be unusually soothing.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;I think this hairstyle is quite lovely..&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I could listen to bards sing all day. Their songs are so lovely.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;You&#39;re so cute! Can I take you home with me?&quot;</th><td>Be intimidating</td></tr></tbody></table></div><h2 id=\"section-dietrich-bird-time-reactions\">Dietrich</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Dietrich reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;Still your mind. Let it be a secluded pond. Give yourself to silence. It is good to meditate.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I dislike those who fetter me…&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;A sea beast diverted me here. Perhaps it was the hand of fate.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I cannot find a fitting opponent for a duel.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;I detest restraints. And you?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;I sense in you something profound and menacing.&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;I have slain giant birds.Yet I feel I would enjoy battling you even more.&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;I like your eyes. They are as bright as sunlight.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;You show no signs of fear. That is unusual.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;You do not mind if I touch you?&quot;</th><td>Spread your wings</td></tr></tbody></table></div><h2 id=\"section-fabio-bird-time-reactions\">Fabio</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Fabio reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;I have feigned the role of a missionary for years, yet these simple beasts do not question it.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;In this land, the sun&#39;s rays are relentless.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;You are the best kind of beast- no foolish words or wasted actions. &quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;Is this land strange, or have I become strange?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Simply catching sight of a thing of beauty is enough to lift the spirits.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;The plants of Dagda are of much interest to me.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I am ill-suited to physical labor. Those who are should be the ones to do it.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;What, then, is the purpose of celebrating the day of one&#39;s birth?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;How beautiful you are. A fine specimen for my scalpel, hmm?&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;I have spent some time with this guise by now. I have, hmm, acclimated to it.&quot;</th><td>Gaze intently</td></tr></tbody></table></div><h2 id=\"section-esmeralda-bird-time-reactions\">Esmeralda</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Esmeralda reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">I hope my mom&#39;s doing OK.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;What I hate most are liars.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Sometimes the guys in Dagsion turn my head, but... No! Sweetie&#39;s the one for me!&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;My dad taught me everything I know about the sea.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;If you&#39;re hungry, come find me! I&#39;ll slip you some tasty fish!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;When I&#39;m all by myself fishing, I like to sing. Just me, the waves, the wind, and my voice.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;I hate being looked down on. But I guess a refined lady can&#39;t wallop her foes... can she?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;You know, you don&#39;t smell like other birds.&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;My mom and dad always said I have pretty eyes.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;All the nobles like to throw flashy parties, or so I hear.&quot;</th><td>Dance</td></tr></tbody></table></div><h2 id=\"section-mikaela-bird-time-reactions\">Mikaela</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Mikaela reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;I&#39;m not the best singer. I enjoy it, but I can&#39;t carry a tune.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;Just because a mom&#39;s marriage failed doesn&#39;t mean her daughter will make the same mistake.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;If you see someone suspicious, just fly off, quick as you can!&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Money is the roof of hardship. Not that you need to worry about that!&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;My sister taught me how to cook. She&#39;s incredible.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;Say there&#39;s a guy in the tavern causing a fuss and I need to punch him out. Should I avoid the face?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Owing debts is no good. As long as they&#39;re hanging over you, you can&#39;t think straight.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;It&#39;s good to get strong. That way you&#39;re ready when it&#39;s time to kick out your good-for-nothing husband!&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Do you have someone dear to you? I hope so. Do whatever you can to protect them.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I wonder how much strength is in that body.&quot;</th><td>Be intimidating</td></tr></tbody></table></div><h2 id=\"section-theodora-bird-time-reactions\">Theodora</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Theodora reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;As a child of Damascar, I cannot be expected to place my trust in the temples.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I yearn to be a queen that Yu Phas and the people of Saramis can take pride in.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;As a child, I used to fall asleep listening to bedtime stories and lullabies.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;I find myself somewhat weary of late...&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;We see ourselves as indebted to Yu Phas, so we cannot help but afford her the proper reverence.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;My retainer winces at the sight of the sketches I enjoy drawing. I blame this new arm of mine.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;In truth, I have no fondness for insects. Do you eat them often?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;I have considered training my spear technique against you. Surely you can avoid my blows.&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;There is a firm resolve in your eyes not often seen in birds.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;If I can make this world a place where my people can thrive, I will consider myself satisfied.&quot;</th><td>Spread your wings</td></tr></tbody></table></div><h2 id=\"section-bonaventure-bird-time-reactions\">Bonaventure</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Bonaventure reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;As they listened, the lovely maidens were enchanted by the bard&#39;s voice.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;Surely I do not lecture as much as they say. Do I?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Looking at you gives me a sense of deja vu. Why do you suppose that is?&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;I would say I remain sharp despite my age. Wouldn&#39;t you agree?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Is it obvious that I take painstaking care of my beard?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Future generations will surely surpass us. Hm! I look forward to it.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;Would a wild and unfettered bird consider it cruel to be captured as a gift for my queen?&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;One&#39;s duties must take precendence over all else. Even if the end result is divorce.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Of late, I find myself mired in dismal thoughts...&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;Do you believe a bright future awaits Saramis?&quot;</th><td>Spread your wings</td></tr></tbody></table></div><h2 id=\"section-tobias-bird-time-reactions\">Tobias</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Tobias reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;It happened again! Some folks saw me and crossed the street. Am I really that scary-lookin&#39;?&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;Gettin&#39; old doesn&#39;t stop a guy from dominating on the battlefield. You know what I&#39;m saying?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I can still hold my own against anyone half my age!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;You look like you wouldn&#39;t taste so good.&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;I like to sing when I work. Puts me in a good mood.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;It&#39;s not a bad thing to drink until you fall asleep, is it?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Wine, mead, meat, and fish! That&#39;s what I call a full meal!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;Love a good party! I wish we could have one every day.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Hey, is it a problem to go a few glasses past your limit?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;I&#39;m in the mood for some shuteye.&quot;</th><td>Sing a beautiful tune</td></tr></tbody></table></div><h2 id=\"section-lilian-bird-time-reactions\">Lilian</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Lilian reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;I&#39;ll have to be careful not to shoot you by mistake when I go hunting.&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;When I think about what I&#39;ll do with all this money I&#39;ve saved... that&#39;s gonna be a great day.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Working for someone who doesn&#39;t trust you isn&#39;t too bad. The money&#39;s nice, at least.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Would it be coldhearted of me to say that money&#39;s more important to me than trust?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Do you like sparkly things? Wanna see my gems?&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;I like counting my savings over and over. Makes me feel like I&#39;m getting closer to my dream.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Your wings are so pretty. Let me get a better look.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;When I&#39;ve been working nonstop, sometimes a breather does me a world of good.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;Urgh... I wish the day would come that my whole family could live together like we used to.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;Next time I go hunting, I&#39;ll bring back some for you.&quot;</th><td>Spread your wings</td></tr></tbody></table></div><h2 id=\"section-lysander-bird-time-reactions\">Lysander</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Lysander reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;Am I too serious? Sometimes people react to me as if I was nagging them.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Turning down the advances of passionate women wears on me, mentally and physically...&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;I must strive to surpass my father, so I can stand shoulder to shoulder with the brave veterans!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I like gazing at the sky. There&#39;s nothing silly about that... right?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Despite the complaints, I have every right to refuse a night&#39;s drinking. I don&#39;t tolerate alcohol well.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I&#39;m considering if I should force myself to visit home. My stepfather and I don&#39;t get along very well.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;I sometimes find my own inexperience frustrating...&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;Being with you puts me at such ease that I wish I could cage you to take you wherever I go.&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;To look at you gives me the same feeling as when I gaze up at the sky.&quot;</th><td>Flap your wings</td></tr><tr><th scope=\"row\">&quot;I bet it would feel incredible to fly alongside you in the clouds.&quot;</th><td>Spread your wings</td></tr></tbody></table></div><h2 id=\"section-leda-bird-time-reactions\">Leda</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Leda reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;Come fly to me when I&#39;m performing.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I&#39;m willing to use any means...&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;I can&#39;t stand snakes.&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;If you see me on a horse ride, you&#39;d better swoop down and say hello.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;In the middle of playing, I often find I&#39;m returning to song from back home. I guess I&#39;m nostalgic.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;I&#39;ve been having trouble sleeping. I wonder if hearing a lullaby would help.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;Any point in praying to the gods...&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;Birds are good at singing...&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;The next time I make food...&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;The key to dancing is good posture.&quot;</th><td>Dance</td></tr></tbody></table></div><h2 id=\"section-buccar-bird-time-reactions\">Buccar</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Buccar reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;Would you like me to teach you martial arts?&quot;</th><td>Do a somersault</td></tr><tr><th scope=\"row\">&quot;Any scar you get in your lord&#39;s service is a badge of honor.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;An enemy attacked you while your charge stood behind you...&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;...I&#39;d want to train you as a knight.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I know well the sound of the vihuela...&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;Would you like me to make you something?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Strange to see a bird with such conviction.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;...The more I find to grumble about.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Most my age have had romantic relationships - I&#39;ve only had loyalty to my lord.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Milday&#39;s heart is consumed with a desire for revenge.&quot;</th><td>Sing a beautiful tune</td></tr></tbody></table></div><h2 id=\"section-sirocco-bird-time-reactions\">Sirocco</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Sirocco reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;I thought we might enjoy playing a song together.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;One must see the world in all its contours to melt others&#39; hearts as I do.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;No doubt I could recognize you admist a flock of winged creatures.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;Do you like your own name?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Is there something that you similarly loathe?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;So when you see hail, think of me.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;What else could I do to woo them?&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;I&#39;m envied by most men. Not that it&#39;s any wonder why.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;You ought to admire for herself what a marvel she is.&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;A bird&#39;s instrument is its chip, but I&#39;m no less skilled with my own.&quot;</th><td>Nod</td></tr></tbody></table></div><h2 id=\"section-mu-bird-time-reactions\">Mu</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Mu reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;Wanna try my cooking sometime?&quot;</th><td>Nod timidly</td></tr><tr><th scope=\"row\">&quot;Sirocco&#39;s so great - I just really wish he didn&#39;t spend all his time womanizing.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Everyone treats me like a kid.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I don&#39;t know where my dad is now.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Back when Mom still lived at home, she&#39;d train me!&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;I want to help people when they&#39;re in trouble.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I didn&#39;t think I had much in common with my mom, but maybe that&#39;s where I got my pushiness.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;If you ever get injured, I&#39;ll fix you up!&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;My mom loves singing, and she&#39;s AWFUL at it.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;You have kind eyes. Looking at them really makes me feel better.&quot;</th><td>Gaze intently</td></tr></tbody></table></div><h2 id=\"section-olympia-bird-time-reactions\">Olympia</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Olympia reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;I have the greatest confidence in my singing.&quot;</th><td>Sing softly</td></tr><tr><th scope=\"row\">&quot;It proves that age should not impede one&#39;s pursuits!&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I was recognized as the Blue Rose of Caelus.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;Listening to music played by another, I can sometimes feel their emotions.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Kalla is so lovely! I imagine you&#39;d fall in love with her at first sight.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I understand not why my artistic talent is failing me.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;In either music or dance, one missed day of practice costs you some skill.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;Shall I compose a poem about you?&quot;</th><td>Do a somersault</td></tr><tr><th scope=\"row\">&quot;I will best Leilidahna one day, I swear it.&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;What must motherhood be like?&quot;</th><td>Tilt your head</td></tr></tbody></table></div><h2 id=\"section-alexandria-bird-time-reactions\">Alexandria</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Alexandria reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;How do you take care of your feathers? They&#39;re so pretty.&quot;</th><td>Preen</td></tr><tr><th scope=\"row\">&quot;It feels great to soar in the sky, doesn&#39;t it? How high can you fly?&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I go on long rides every now and then. Would you like to come along sometime?&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I heard someone talking about me behind my back earlier. What should I do about that?&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">It must be scary to live out in the wild. Please call for me if you&#39;re ever going somewhere dangerous!&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I have nothing but happy memories of my parents. But I do get sad, knowing they live only in memory.&quot;</th><td>Sing a beautiful tune</td></tr><tr><th scope=\"row\">&quot;I&#39;m trying to live up to the name of &quot;Silver Maiden,&quot; and with Bucephalus, I&#39;m sure that I will!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I&#39;m confident in my abilities in battle. I should show you what I can do sometime!&quot;</th><td>Gaze intently</td></tr><tr><th scope=\"row\">&quot;Would you like to meet Bucephalus? It&#39;d be fun if you two were friends!&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Have you ever been to my home in Tellus? It&#39;s a wealthy county and has an easiness to it.&quot;</th><td>Spread your wings</td></tr></tbody></table></div><h2 id=\"section-noctula-bird-time-reactions\">Noctula</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Noctula reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;I learned a lot living on a mountain, like hunting and blacksmithing. Good to have skills, right?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I like fighting with my fists. Keeps me feeling free and nimble in battle. Get what I mean?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I&#39;d like to call you something more than &quot;bird.&quot; How&#39;s Birdlee? Nah, that&#39;s not right.&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;I want to add a new move to my wrestle-dancing. Have any great ideas?&quot;</th><td>Do a somersault</td></tr><tr><th scope=\"row\">&quot;I grew up thinking you had to marry the person who can defeat you in a fair fight. It&#39;s a dumb tradition, right? I&#39;m tougher than the guys back home anyway.&quot;</th><td>Sing boldly</td></tr><tr><th scope=\"row\">&quot;Back home, I don&#39;t rank that high in importance, but as the chief&#39;s daughter, I&#39;m singled out for marital challenges.&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;My third eldest brother is traveling the world like I am. Say hello if you see him. He loves animals.&quot;</th><td>Flap your wings</td></tr><tr><th scope=\"row\">&quot;I trained most days of my life, going up and down Mount Orgus. Want me to kick your perch in half?&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;You&#39;re always here alone. Did you leave your flock? I did something like that too. Let&#39;s be friends!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;Something good is coming up soon. My gut is always right, you know!&quot;</th><td>Gaze intently</td></tr></tbody></table></div><h2 id=\"section-sofia-bird-time-reactions\">Sofia</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Sofia reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;I like to give everyone cute little names. I hope it&#39;s cute anyway. Maybe it&#39;s kind of weird?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;Don&#39;t you think Lord Solel is wonderful? He&#39;s so kind, amazing, and just plain great!&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;Mmm, roasted? Braised? Oh! Sorry, I didn&#39;t mean anything by it. You don&#39;t look tasty at all!&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;I never get tipsy, no matter how many mugs of suds I drink. How about you?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;I have a VERY healthy appetite. The pay I get from the temple can&#39;t cover my meals. Tragic, right?&quot;</th><td>Sing softly</td></tr><tr><th scope=\"row\">&quot;I was born and raised at Lyoshan Fort. If you ever go there, watch out for all the ruffians!&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I love spicy food more than anything. Too bad it always gets eaten up quick. Why is that, I wonder?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;If I think someone&#39;s cute, I can&#39;t help calling them a fun name. I&#39;m going to call you Li&#39;l Birdie!&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;I grew up enjoying food at my dad&#39;s feasts with his friends. If I have a big party like that, want to come?&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;Be careful to to get too near me when I&#39;m really hungry. You do look delicious, I&#39;m sorry to say.&quot;</th><td>Gaze intently</td></tr></tbody></table></div><h2 id=\"section-zarcone-bird-time-reactions\">Zarcone</h2><div class=\"table-scroll\" role=\"region\" aria-label=\"Zarcone reactions\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">Prompt</th><th scope=\"col\">Reaction</th></tr></thead><tbody><tr><th scope=\"row\">&quot;There&#39;s no way I can give up on pillaging now! You know how many years I&#39;ve been at it?&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;It&#39;s common sense to pick off the weaklings in battle. You look like easy prey to me!&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;Got parents? If you don&#39;t, you&#39;d fit in with me and my pals just fine. You could join our bandit crew!&quot;</th><td>Tilt your head</td></tr><tr><th scope=\"row\">&quot;The mountains are like home to me. I shold build me and my pals a castle up there, right?&quot;</th><td>Spread your wings</td></tr><tr><th scope=\"row\">&quot;Weaklings like you end up as dinner. So try to fly extra-high so the arrows don&#39;t get you.&quot;</th><td>Flap your wings</td></tr><tr><th scope=\"row\">&quot;The guys in the Gaia Brigade left me for dead as soon as we lost our battle in the games. Cruel, huh?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;I thought I could get anything I want through plunder and fighting. But how can I get myself a family...&quot;</th><td>Sing softly</td></tr><tr><th scope=\"row\">&quot;Good idea not fighting anyone who looks too dangerous. Whoever lasts longest... wins, right?&quot;</th><td>Nod</td></tr><tr><th scope=\"row\">&quot;If anyone gets robbed or snuffed out... they shouldn&#39;t be so weak! Fight harder, that&#39;s what I say!&quot;</th><td>Be intimidating</td></tr><tr><th scope=\"row\">&quot;People think bandits eat nothin&#39; but meat. It&#39;s vegetables all the way with me. Keep that in mind.&quot;</th><td>Nod</td></tr></tbody></table></div>",
+      "text": "Cai\n\"Today's a perfect day for fishing!\"\nSpread your wings\n\"It's nice to unwind a little sometimes, huh?\"\nSing a beautiful tune\n\"I wonder what the world looks like through your eyes.\"\nGaze intently\n\"Sometimes, it's like people can guess what's on my mind.\"\nTilt your head\n\"I can't stand cowardice.\"\nNod\n\"I hear pretty birdsong sometimes. Is that you?\"\nSing a beautiful tune\n\"Do you think I'll ever be better with a spear than my dad?\"\nNod\n\"How do you become an adult, anyway?\"\nGaze intently\n\"It's neat how quick birds can move. You look like you could dodge any attack!\"\nSpread your wings\n\"I bet it'd be fun to play hide-and-seek with you!\"\nFlap your wings\nPeter\n\"Taking it easy makes me sleepy...\"\nNod\n\"You make me feel like I can face even the most difficult things in life.\"\nGaze intently\n\"We should go together and pick some of the fruit!\"\nSpread your wings\n\"I like clouds. They're so big, and its neat to see all the shapes they can take.\"\nSpread your wings\n\"Some animals make all kinds of racket.\"\nNod\n\"It's nice to walk around the forest and listen to all the sounds the animals make, huh?\"\nSing a beautiful tune\n\"I had a dream about a beautiful bird...\"\nTilt your head\n\"Everyone's fighting. It's scary, but I'm doing my best!\"\nSpread your wings\n\"What should I do when I get so scared my legs start shaking and I can't move?\"\nSpread your wings\n\"I just don't know what to do about all these feelings I have to Tialla.\"\nSing a beautiful tune\nTialla\n\"It's bad to overthink things, isn't it?\"\nSing a beautiful tune\n\"Technique is important, yes. But without knowledge of why it works, it won't be of much use.\"\nNod\n\"If something bad is going to happen no matter what, is there any point in fighting it?\"\nTilt your head\n\"These glasses are pretty nice, don't you think?\"\nNod\n\"You have such beautiful plumage. Do you mind if I take a closer look?\"\nSpread your wings\n\"I like to lie in the warm sun. Do you like it too?\"\nSpread your wings\n\"I might be inexperienced, but I've studied hard and learned more than most people!\"\nSpread your wings\n\"I remember being with Grandpa when I was little. We heard a bard sing the prettiest song.\"\nSing a beautiful tune\n\"I can see such intelligence in your eyes. I think we could get along!\"\nGaze intently\n\"I'd love to be a bird. I'd fly through open windows and right into the temple library.\"\nFlap your wings\nUltand\n\"I enjoy a good fish dinner, but you can't eat nothing but fish every day, can you?\"\nTilt your head\n\"I feel like sometimes there's just no avoiding snapping at your superiors.\"\nNod\n\"Do you think I'll have a happy family in the future?\"\nNod\n\"I can save money, yes, but I feel like the odds are low that it'll start increasing on its own.\"\nTilt your head\n\"I've been so exhausted lately. I could really do with some pampering...\"\nSing a beautiful tune\n\"What do you do when there's someone you like and you want them to notice you?\"\nSpread your wings\n\"I find just looking at you to be unusually soothing.\"\nGaze intently\n\"I think this hairstyle is quite lovely..\"\nNod\n\"I could listen to bards sing all day. Their songs are so lovely.\"\nSing a beautiful tune\n\"You're so cute! Can I take you home with me?\"\nBe intimidating\nDietrich\n\"Still your mind. Let it be a secluded pond. Give yourself to silence. It is good to meditate.\"\nNod\n\"I dislike those who fetter me…\"\nSpread your wings\n\"A sea beast diverted me here. Perhaps it was the hand of fate.\"\nNod\n\"I cannot find a fitting opponent for a duel.\"\nSing a beautiful tune\n\"I detest restraints. And you?\"\nTilt your head\n\"I sense in you something profound and menacing.\"\nBe intimidating\n\"I have slain giant birds.Yet I feel I would enjoy battling you even more.\"\nBe intimidating\n\"I like your eyes. They are as bright as sunlight.\"\nGaze intently\n\"You show no signs of fear. That is unusual.\"\nGaze intently\n\"You do not mind if I touch you?\"\nSpread your wings\nFabio\n\"I have feigned the role of a missionary for years, yet these simple beasts do not question it.\"\nTilt your head\n\"In this land, the sun's rays are relentless.\"\nSpread your wings\n\"You are the best kind of beast- no foolish words or wasted actions. \"\nGaze intently\n\"Is this land strange, or have I become strange?\"\nTilt your head\n\"Simply catching sight of a thing of beauty is enough to lift the spirits.\"\nSing a beautiful tune\n\"The plants of Dagda are of much interest to me.\"\nNod\n\"I am ill-suited to physical labor. Those who are should be the ones to do it.\"\nNod\n\"What, then, is the purpose of celebrating the day of one's birth?\"\nTilt your head\n\"How beautiful you are. A fine specimen for my scalpel, hmm?\"\nBe intimidating\n\"I have spent some time with this guise by now. I have, hmm, acclimated to it.\"\nGaze intently\nEsmeralda\nI hope my mom's doing OK.\"\nSpread your wings\n\"What I hate most are liars.\"\nNod\n\"Sometimes the guys in Dagsion turn my head, but... No! Sweetie's the one for me!\"\nNod\n\"My dad taught me everything I know about the sea.\"\nNod\n\"If you're hungry, come find me! I'll slip you some tasty fish!\"\nSpread your wings\n\"When I'm all by myself fishing, I like to sing. Just me, the waves, the wind, and my voice.\"\nSing a beautiful tune\n\"I hate being looked down on. But I guess a refined lady can't wallop her foes... can she?\"\nTilt your head\n\"You know, you don't smell like other birds.\"\nBe intimidating\n\"My mom and dad always said I have pretty eyes.\"\nGaze intently\n\"All the nobles like to throw flashy parties, or so I hear.\"\nDance\nMikaela\n\"I'm not the best singer. I enjoy it, but I can't carry a tune.\"\nSing a beautiful tune\n\"Just because a mom's marriage failed doesn't mean her daughter will make the same mistake.\"\nNod\n\"If you see someone suspicious, just fly off, quick as you can!\"\nNod\n\"Money is the roof of hardship. Not that you need to worry about that!\"\nTilt your head\n\"My sister taught me how to cook. She's incredible.\"\nSpread your wings\n\"Say there's a guy in the tavern causing a fuss and I need to punch him out. Should I avoid the face?\"\nTilt your head\n\"Owing debts is no good. As long as they're hanging over you, you can't think straight.\"\nNod\n\"It's good to get strong. That way you're ready when it's time to kick out your good-for-nothing husband!\"\nTilt your head\n\"Do you have someone dear to you? I hope so. Do whatever you can to protect them.\"\nSpread your wings\n\"I wonder how much strength is in that body.\"\nBe intimidating\nTheodora\n\"As a child of Damascar, I cannot be expected to place my trust in the temples.\"\nNod\n\"I yearn to be a queen that Yu Phas and the people of Saramis can take pride in.\"\nSpread your wings\n\"As a child, I used to fall asleep listening to bedtime stories and lullabies.\"\nSing a beautiful tune\n\"I find myself somewhat weary of late...\"\nSing a beautiful tune\n\"We see ourselves as indebted to Yu Phas, so we cannot help but afford her the proper reverence.\"\nNod\n\"My retainer winces at the sight of the sketches I enjoy drawing. I blame this new arm of mine.\"\nNod\n\"In truth, I have no fondness for insects. Do you eat them often?\"\nTilt your head\n\"I have considered training my spear technique against you. Surely you can avoid my blows.\"\nBe intimidating\n\"There is a firm resolve in your eyes not often seen in birds.\"\nGaze intently\n\"If I can make this world a place where my people can thrive, I will consider myself satisfied.\"\nSpread your wings\nBonaventure\n\"As they listened, the lovely maidens were enchanted by the bard's voice.\"\nSing a beautiful tune\n\"Surely I do not lecture as much as they say. Do I?\"\nTilt your head\n\"Looking at you gives me a sense of deja vu. Why do you suppose that is?\"\nGaze intently\n\"I would say I remain sharp despite my age. Wouldn't you agree?\"\nNod\n\"Is it obvious that I take painstaking care of my beard?\"\nNod\n\"Future generations will surely surpass us. Hm! I look forward to it.\"\nSpread your wings\n\"Would a wild and unfettered bird consider it cruel to be captured as a gift for my queen?\"\nBe intimidating\n\"One's duties must take precendence over all else. Even if the end result is divorce.\"\nTilt your head\n\"Of late, I find myself mired in dismal thoughts...\"\nSing a beautiful tune\n\"Do you believe a bright future awaits Saramis?\"\nSpread your wings\nTobias\n\"It happened again! Some folks saw me and crossed the street. Am I really that scary-lookin'?\"\nGaze intently\n\"Gettin' old doesn't stop a guy from dominating on the battlefield. You know what I'm saying?\"\nNod\n\"I can still hold my own against anyone half my age!\"\nSpread your wings\n\"You look like you wouldn't taste so good.\"\nBe intimidating\n\"I like to sing when I work. Puts me in a good mood.\"\nSing a beautiful tune\n\"It's not a bad thing to drink until you fall asleep, is it?\"\nTilt your head\n\"Wine, mead, meat, and fish! That's what I call a full meal!\"\nSpread your wings\n\"Love a good party! I wish we could have one every day.\"\nNod\n\"Hey, is it a problem to go a few glasses past your limit?\"\nTilt your head\n\"I'm in the mood for some shuteye.\"\nSing a beautiful tune\nLilian\n\"I'll have to be careful not to shoot you by mistake when I go hunting.\"\nBe intimidating\n\"When I think about what I'll do with all this money I've saved... that's gonna be a great day.\"\nNod\n\"Working for someone who doesn't trust you isn't too bad. The money's nice, at least.\"\nNod\n\"Would it be coldhearted of me to say that money's more important to me than trust?\"\nTilt your head\n\"Do you like sparkly things? Wanna see my gems?\"\nGaze intently\n\"I like counting my savings over and over. Makes me feel like I'm getting closer to my dream.\"\nTilt your head\n\"Your wings are so pretty. Let me get a better look.\"\nSpread your wings\n\"When I've been working nonstop, sometimes a breather does me a world of good.\"\nSing a beautiful tune\n\"Urgh... I wish the day would come that my whole family could live together like we used to.\"\nGaze intently\n\"Next time I go hunting, I'll bring back some for you.\"\nSpread your wings\nLysander\n\"Am I too serious? Sometimes people react to me as if I was nagging them.\"\nTilt your head\n\"Turning down the advances of passionate women wears on me, mentally and physically...\"\nSing a beautiful tune\n\"I must strive to surpass my father, so I can stand shoulder to shoulder with the brave veterans!\"\nSpread your wings\n\"I like gazing at the sky. There's nothing silly about that... right?\"\nNod\n\"Despite the complaints, I have every right to refuse a night's drinking. I don't tolerate alcohol well.\"\nNod\n\"I'm considering if I should force myself to visit home. My stepfather and I don't get along very well.\"\nTilt your head\n\"I sometimes find my own inexperience frustrating...\"\nSing a beautiful tune\n\"Being with you puts me at such ease that I wish I could cage you to take you wherever I go.\"\nBe intimidating\n\"To look at you gives me the same feeling as when I gaze up at the sky.\"\nFlap your wings\n\"I bet it would feel incredible to fly alongside you in the clouds.\"\nSpread your wings\nLeda\n\"Come fly to me when I'm performing.\"\nSpread your wings\n\"I'm willing to use any means...\"\nTilt your head\n\"I can't stand snakes.\"\nBe intimidating\n\"If you see me on a horse ride, you'd better swoop down and say hello.\"\nSpread your wings\n\"In the middle of playing, I often find I'm returning to song from back home. I guess I'm nostalgic.\"\nGaze intently\n\"I've been having trouble sleeping. I wonder if hearing a lullaby would help.\"\nSing a beautiful tune\n\"Any point in praying to the gods...\"\nGaze intently\n\"Birds are good at singing...\"\nSing a beautiful tune\n\"The next time I make food...\"\nTilt your head\n\"The key to dancing is good posture.\"\nDance\nBuccar\n\"Would you like me to teach you martial arts?\"\nDo a somersault\n\"Any scar you get in your lord's service is a badge of honor.\"\nNod\n\"An enemy attacked you while your charge stood behind you...\"\nBe intimidating\n\"...I'd want to train you as a knight.\"\nSpread your wings\n\"I know well the sound of the vihuela...\"\nSing a beautiful tune\n\"Would you like me to make you something?\"\nNod\n\"Strange to see a bird with such conviction.\"\nGaze intently\n\"...The more I find to grumble about.\"\nTilt your head\n\"Most my age have had romantic relationships - I've only had loyalty to my lord.\"\nNod\n\"Milday's heart is consumed with a desire for revenge.\"\nSing a beautiful tune\nSirocco\n\"I thought we might enjoy playing a song together.\"\nSing a beautiful tune\n\"One must see the world in all its contours to melt others' hearts as I do.\"\nGaze intently\n\"No doubt I could recognize you admist a flock of winged creatures.\"\nSpread your wings\n\"Do you like your own name?\"\nNod\n\"Is there something that you similarly loathe?\"\nNod\n\"So when you see hail, think of me.\"\nNod\n\"What else could I do to woo them?\"\nSing a beautiful tune\n\"I'm envied by most men. Not that it's any wonder why.\"\nGaze intently\n\"You ought to admire for herself what a marvel she is.\"\nGaze intently\n\"A bird's instrument is its chip, but I'm no less skilled with my own.\"\nNod\nMu\n\"Wanna try my cooking sometime?\"\nNod timidly\n\"Sirocco's so great - I just really wish he didn't spend all his time womanizing.\"\nNod\n\"Everyone treats me like a kid.\"\nSpread your wings\n\"I don't know where my dad is now.\"\nTilt your head\n\"Back when Mom still lived at home, she'd train me!\"\nBe intimidating\n\"I want to help people when they're in trouble.\"\nSpread your wings\n\"I didn't think I had much in common with my mom, but maybe that's where I got my pushiness.\"\nTilt your head\n\"If you ever get injured, I'll fix you up!\"\nNod\n\"My mom loves singing, and she's AWFUL at it.\"\nSing a beautiful tune\n\"You have kind eyes. Looking at them really makes me feel better.\"\nGaze intently\nOlympia\n\"I have the greatest confidence in my singing.\"\nSing softly\n\"It proves that age should not impede one's pursuits!\"\nNod\n\"I was recognized as the Blue Rose of Caelus.\"\nSpread your wings\n\"Listening to music played by another, I can sometimes feel their emotions.\"\nNod\n\"Kalla is so lovely! I imagine you'd fall in love with her at first sight.\"\nNod\n\"I understand not why my artistic talent is failing me.\"\nTilt your head\n\"In either music or dance, one missed day of practice costs you some skill.\"\nSing a beautiful tune\n\"Shall I compose a poem about you?\"\nDo a somersault\n\"I will best Leilidahna one day, I swear it.\"\nSpread your wings\n\"What must motherhood be like?\"\nTilt your head\nAlexandria\n\"How do you take care of your feathers? They're so pretty.\"\nPreen\n\"It feels great to soar in the sky, doesn't it? How high can you fly?\"\nSpread your wings\n\"I go on long rides every now and then. Would you like to come along sometime?\"\nSpread your wings\n\"I heard someone talking about me behind my back earlier. What should I do about that?\"\nBe intimidating\nIt must be scary to live out in the wild. Please call for me if you're ever going somewhere dangerous!\"\nNod\n\"I have nothing but happy memories of my parents. But I do get sad, knowing they live only in memory.\"\nSing a beautiful tune\n\"I'm trying to live up to the name of \"Silver Maiden,\" and with Bucephalus, I'm sure that I will!\"\nSpread your wings\n\"I'm confident in my abilities in battle. I should show you what I can do sometime!\"\nGaze intently\n\"Would you like to meet Bucephalus? It'd be fun if you two were friends!\"\nNod\n\"Have you ever been to my home in Tellus? It's a wealthy county and has an easiness to it.\"\nSpread your wings\nNoctula\n\"I learned a lot living on a mountain, like hunting and blacksmithing. Good to have skills, right?\"\nNod\n\"I like fighting with my fists. Keeps me feeling free and nimble in battle. Get what I mean?\"\nNod\n\"I'd like to call you something more than \"bird.\" How's Birdlee? Nah, that's not right.\"\nTilt your head\n\"I want to add a new move to my wrestle-dancing. Have any great ideas?\"\nDo a somersault\n\"I grew up thinking you had to marry the person who can defeat you in a fair fight. It's a dumb tradition, right? I'm tougher than the guys back home anyway.\"\nSing boldly\n\"Back home, I don't rank that high in importance, but as the chief's daughter, I'm singled out for marital challenges.\"\nNod\n\"My third eldest brother is traveling the world like I am. Say hello if you see him. He loves animals.\"\nFlap your wings\n\"I trained most days of my life, going up and down Mount Orgus. Want me to kick your perch in half?\"\nBe intimidating\n\"You're always here alone. Did you leave your flock? I did something like that too. Let's be friends!\"\nSpread your wings\n\"Something good is coming up soon. My gut is always right, you know!\"\nGaze intently\nSofia\n\"I like to give everyone cute little names. I hope it's cute anyway. Maybe it's kind of weird?\"\nTilt your head\n\"Don't you think Lord Solel is wonderful? He's so kind, amazing, and just plain great!\"\nNod\n\"Mmm, roasted? Braised? Oh! Sorry, I didn't mean anything by it. You don't look tasty at all!\"\nBe intimidating\n\"I never get tipsy, no matter how many mugs of suds I drink. How about you?\"\nTilt your head\n\"I have a VERY healthy appetite. The pay I get from the temple can't cover my meals. Tragic, right?\"\nSing softly\n\"I was born and raised at Lyoshan Fort. If you ever go there, watch out for all the ruffians!\"\nNod\n\"I love spicy food more than anything. Too bad it always gets eaten up quick. Why is that, I wonder?\"\nTilt your head\n\"If I think someone's cute, I can't help calling them a fun name. I'm going to call you Li'l Birdie!\"\nSpread your wings\n\"I grew up enjoying food at my dad's feasts with his friends. If I have a big party like that, want to come?\"\nSpread your wings\n\"Be careful to to get too near me when I'm really hungry. You do look delicious, I'm sorry to say.\"\nGaze intently\nZarcone\n\"There's no way I can give up on pillaging now! You know how many years I've been at it?\"\nTilt your head\n\"It's common sense to pick off the weaklings in battle. You look like easy prey to me!\"\nBe intimidating\n\"Got parents? If you don't, you'd fit in with me and my pals just fine. You could join our bandit crew!\"\nTilt your head\n\"The mountains are like home to me. I shold build me and my pals a castle up there, right?\"\nSpread your wings\n\"Weaklings like you end up as dinner. So try to fly extra-high so the arrows don't get you.\"\nFlap your wings\n\"The guys in the Gaia Brigade left me for dead as soon as we lost our battle in the games. Cruel, huh?\"\nNod\n\"I thought I could get anything I want through plunder and fighting. But how can I get myself a family...\"\nSing softly\n\"Good idea not fighting anyone who looks too dangerous. Whoever lasts longest... wins, right?\"\nNod\n\"If anyone gets robbed or snuffed out... they shouldn't be so weak! Fight harder, that's what I say!\"\nBe intimidating\n\"People think bandits eat nothin' but meat. It's vegetables all the way with me. Keep that in mind.\"\nNod",
+      "headings": [
+        {
+          "id": "section-cai-bird-time-reactions",
+          "text": "Cai",
+          "level": 2
+        },
+        {
+          "id": "section-peter-bird-time-reactions",
+          "text": "Peter",
+          "level": 2
+        },
+        {
+          "id": "section-tialla-bird-time-reactions",
+          "text": "Tialla",
+          "level": 2
+        },
+        {
+          "id": "section-ultand-bird-time-reactions",
+          "text": "Ultand",
+          "level": 2
+        },
+        {
+          "id": "section-dietrich-bird-time-reactions",
+          "text": "Dietrich",
+          "level": 2
+        },
+        {
+          "id": "section-fabio-bird-time-reactions",
+          "text": "Fabio",
+          "level": 2
+        },
+        {
+          "id": "section-esmeralda-bird-time-reactions",
+          "text": "Esmeralda",
+          "level": 2
+        },
+        {
+          "id": "section-mikaela-bird-time-reactions",
+          "text": "Mikaela",
+          "level": 2
+        },
+        {
+          "id": "section-theodora-bird-time-reactions",
+          "text": "Theodora",
+          "level": 2
+        },
+        {
+          "id": "section-bonaventure-bird-time-reactions",
+          "text": "Bonaventure",
+          "level": 2
+        },
+        {
+          "id": "section-tobias-bird-time-reactions",
+          "text": "Tobias",
+          "level": 2
+        },
+        {
+          "id": "section-lilian-bird-time-reactions",
+          "text": "Lilian",
+          "level": 2
+        },
+        {
+          "id": "section-lysander-bird-time-reactions",
+          "text": "Lysander",
+          "level": 2
+        },
+        {
+          "id": "section-leda-bird-time-reactions",
+          "text": "Leda",
+          "level": 2
+        },
+        {
+          "id": "section-buccar-bird-time-reactions",
+          "text": "Buccar",
+          "level": 2
+        },
+        {
+          "id": "section-sirocco-bird-time-reactions",
+          "text": "Sirocco",
+          "level": 2
+        },
+        {
+          "id": "section-mu-bird-time-reactions",
+          "text": "Mu",
+          "level": 2
+        },
+        {
+          "id": "section-olympia-bird-time-reactions",
+          "text": "Olympia",
+          "level": 2
+        },
+        {
+          "id": "section-alexandria-bird-time-reactions",
+          "text": "Alexandria",
+          "level": 2
+        },
+        {
+          "id": "section-noctula-bird-time-reactions",
+          "text": "Noctula",
+          "level": 2
+        },
+        {
+          "id": "section-sofia-bird-time-reactions",
+          "text": "Sofia",
+          "level": 2
+        },
+        {
+          "id": "section-zarcone-bird-time-reactions",
+          "text": "Zarcone",
+          "level": 2
+        }
+      ],
+      "sections": [
+        {
+          "headingId": "section-cai-bird-time-reactions",
+          "heading": "Cai",
+          "text": "Cai\n\"Today's a perfect day for fishing!\"\nSpread your wings\n\"It's nice to unwind a little sometimes, huh?\"\nSing a beautiful tune\n\"I wonder what the world looks like through your eyes.\"\nGaze intently\n\"Sometimes, it's like people can guess what's on my mind.\"\nTilt your head\n\"I can't stand cowardice.\"\nNod\n\"I hear pretty birdsong sometimes. Is that you?\"\nSing a beautiful tune\n\"Do you think I'll ever be better with a spear than my dad?\"\nNod\n\"How do you become an adult, anyway?\"\nGaze intently\n\"It's neat how quick birds can move. You look like you could dodge any attack!\"\nSpread your wings\n\"I bet it'd be fun to play hide-and-seek with you!\"\nFlap your wings"
+        },
+        {
+          "headingId": "section-peter-bird-time-reactions",
+          "heading": "Peter",
+          "text": "Peter\n\"Taking it easy makes me sleepy...\"\nNod\n\"You make me feel like I can face even the most difficult things in life.\"\nGaze intently\n\"We should go together and pick some of the fruit!\"\nSpread your wings\n\"I like clouds. They're so big, and its neat to see all the shapes they can take.\"\nSpread your wings\n\"Some animals make all kinds of racket.\"\nNod\n\"It's nice to walk around the forest and listen to all the sounds the animals make, huh?\"\nSing a beautiful tune\n\"I had a dream about a beautiful bird...\"\nTilt your head\n\"Everyone's fighting. It's scary, but I'm doing my best!\"\nSpread your wings\n\"What should I do when I get so scared my legs start shaking and I can't move?\"\nSpread your wings\n\"I just don't know what to do about all these feelings I have to Tialla.\"\nSing a beautiful tune"
+        },
+        {
+          "headingId": "section-tialla-bird-time-reactions",
+          "heading": "Tialla",
+          "text": "Tialla\n\"It's bad to overthink things, isn't it?\"\nSing a beautiful tune\n\"Technique is important, yes. But without knowledge of why it works, it won't be of much use.\"\nNod\n\"If something bad is going to happen no matter what, is there any point in fighting it?\"\nTilt your head\n\"These glasses are pretty nice, don't you think?\"\nNod\n\"You have such beautiful plumage. Do you mind if I take a closer look?\"\nSpread your wings\n\"I like to lie in the warm sun. Do you like it too?\"\nSpread your wings\n\"I might be inexperienced, but I've studied hard and learned more than most people!\"\nSpread your wings\n\"I remember being with Grandpa when I was little. We heard a bard sing the prettiest song.\"\nSing a beautiful tune\n\"I can see such intelligence in your eyes. I think we could get along!\"\nGaze intently\n\"I'd love to be a bird. I'd fly through open windows and right into the temple library.\"\nFlap your wings"
+        },
+        {
+          "headingId": "section-ultand-bird-time-reactions",
+          "heading": "Ultand",
+          "text": "Ultand\n\"I enjoy a good fish dinner, but you can't eat nothing but fish every day, can you?\"\nTilt your head\n\"I feel like sometimes there's just no avoiding snapping at your superiors.\"\nNod\n\"Do you think I'll have a happy family in the future?\"\nNod\n\"I can save money, yes, but I feel like the odds are low that it'll start increasing on its own.\"\nTilt your head\n\"I've been so exhausted lately. I could really do with some pampering...\"\nSing a beautiful tune\n\"What do you do when there's someone you like and you want them to notice you?\"\nSpread your wings\n\"I find just looking at you to be unusually soothing.\"\nGaze intently\n\"I think this hairstyle is quite lovely..\"\nNod\n\"I could listen to bards sing all day. Their songs are so lovely.\"\nSing a beautiful tune\n\"You're so cute! Can I take you home with me?\"\nBe intimidating"
+        },
+        {
+          "headingId": "section-dietrich-bird-time-reactions",
+          "heading": "Dietrich",
+          "text": "Dietrich\n\"Still your mind. Let it be a secluded pond. Give yourself to silence. It is good to meditate.\"\nNod\n\"I dislike those who fetter me…\"\nSpread your wings\n\"A sea beast diverted me here. Perhaps it was the hand of fate.\"\nNod\n\"I cannot find a fitting opponent for a duel.\"\nSing a beautiful tune\n\"I detest restraints. And you?\"\nTilt your head\n\"I sense in you something profound and menacing.\"\nBe intimidating\n\"I have slain giant birds.Yet I feel I would enjoy battling you even more.\"\nBe intimidating\n\"I like your eyes. They are as bright as sunlight.\"\nGaze intently\n\"You show no signs of fear. That is unusual.\"\nGaze intently\n\"You do not mind if I touch you?\"\nSpread your wings"
+        },
+        {
+          "headingId": "section-fabio-bird-time-reactions",
+          "heading": "Fabio",
+          "text": "Fabio\n\"I have feigned the role of a missionary for years, yet these simple beasts do not question it.\"\nTilt your head\n\"In this land, the sun's rays are relentless.\"\nSpread your wings\n\"You are the best kind of beast- no foolish words or wasted actions. \"\nGaze intently\n\"Is this land strange, or have I become strange?\"\nTilt your head\n\"Simply catching sight of a thing of beauty is enough to lift the spirits.\"\nSing a beautiful tune\n\"The plants of Dagda are of much interest to me.\"\nNod\n\"I am ill-suited to physical labor. Those who are should be the ones to do it.\"\nNod\n\"What, then, is the purpose of celebrating the day of one's birth?\"\nTilt your head\n\"How beautiful you are. A fine specimen for my scalpel, hmm?\"\nBe intimidating\n\"I have spent some time with this guise by now. I have, hmm, acclimated to it.\"\nGaze intently"
+        },
+        {
+          "headingId": "section-esmeralda-bird-time-reactions",
+          "heading": "Esmeralda",
+          "text": "Esmeralda\nI hope my mom's doing OK.\"\nSpread your wings\n\"What I hate most are liars.\"\nNod\n\"Sometimes the guys in Dagsion turn my head, but... No! Sweetie's the one for me!\"\nNod\n\"My dad taught me everything I know about the sea.\"\nNod\n\"If you're hungry, come find me! I'll slip you some tasty fish!\"\nSpread your wings\n\"When I'm all by myself fishing, I like to sing. Just me, the waves, the wind, and my voice.\"\nSing a beautiful tune\n\"I hate being looked down on. But I guess a refined lady can't wallop her foes... can she?\"\nTilt your head\n\"You know, you don't smell like other birds.\"\nBe intimidating\n\"My mom and dad always said I have pretty eyes.\"\nGaze intently\n\"All the nobles like to throw flashy parties, or so I hear.\"\nDance"
+        },
+        {
+          "headingId": "section-mikaela-bird-time-reactions",
+          "heading": "Mikaela",
+          "text": "Mikaela\n\"I'm not the best singer. I enjoy it, but I can't carry a tune.\"\nSing a beautiful tune\n\"Just because a mom's marriage failed doesn't mean her daughter will make the same mistake.\"\nNod\n\"If you see someone suspicious, just fly off, quick as you can!\"\nNod\n\"Money is the roof of hardship. Not that you need to worry about that!\"\nTilt your head\n\"My sister taught me how to cook. She's incredible.\"\nSpread your wings\n\"Say there's a guy in the tavern causing a fuss and I need to punch him out. Should I avoid the face?\"\nTilt your head\n\"Owing debts is no good. As long as they're hanging over you, you can't think straight.\"\nNod\n\"It's good to get strong. That way you're ready when it's time to kick out your good-for-nothing husband!\"\nTilt your head\n\"Do you have someone dear to you? I hope so. Do whatever you can to protect them.\"\nSpread your wings\n\"I wonder how much strength is in that body.\"\nBe intimidating"
+        },
+        {
+          "headingId": "section-theodora-bird-time-reactions",
+          "heading": "Theodora",
+          "text": "Theodora\n\"As a child of Damascar, I cannot be expected to place my trust in the temples.\"\nNod\n\"I yearn to be a queen that Yu Phas and the people of Saramis can take pride in.\"\nSpread your wings\n\"As a child, I used to fall asleep listening to bedtime stories and lullabies.\"\nSing a beautiful tune\n\"I find myself somewhat weary of late...\"\nSing a beautiful tune\n\"We see ourselves as indebted to Yu Phas, so we cannot help but afford her the proper reverence.\"\nNod\n\"My retainer winces at the sight of the sketches I enjoy drawing. I blame this new arm of mine.\"\nNod\n\"In truth, I have no fondness for insects. Do you eat them often?\"\nTilt your head\n\"I have considered training my spear technique against you. Surely you can avoid my blows.\"\nBe intimidating\n\"There is a firm resolve in your eyes not often seen in birds.\"\nGaze intently\n\"If I can make this world a place where my people can thrive, I will consider myself satisfied.\"\nSpread your wings"
+        },
+        {
+          "headingId": "section-bonaventure-bird-time-reactions",
+          "heading": "Bonaventure",
+          "text": "Bonaventure\n\"As they listened, the lovely maidens were enchanted by the bard's voice.\"\nSing a beautiful tune\n\"Surely I do not lecture as much as they say. Do I?\"\nTilt your head\n\"Looking at you gives me a sense of deja vu. Why do you suppose that is?\"\nGaze intently\n\"I would say I remain sharp despite my age. Wouldn't you agree?\"\nNod\n\"Is it obvious that I take painstaking care of my beard?\"\nNod\n\"Future generations will surely surpass us. Hm! I look forward to it.\"\nSpread your wings\n\"Would a wild and unfettered bird consider it cruel to be captured as a gift for my queen?\"\nBe intimidating\n\"One's duties must take precendence over all else. Even if the end result is divorce.\"\nTilt your head\n\"Of late, I find myself mired in dismal thoughts...\"\nSing a beautiful tune\n\"Do you believe a bright future awaits Saramis?\"\nSpread your wings"
+        },
+        {
+          "headingId": "section-tobias-bird-time-reactions",
+          "heading": "Tobias",
+          "text": "Tobias\n\"It happened again! Some folks saw me and crossed the street. Am I really that scary-lookin'?\"\nGaze intently\n\"Gettin' old doesn't stop a guy from dominating on the battlefield. You know what I'm saying?\"\nNod\n\"I can still hold my own against anyone half my age!\"\nSpread your wings\n\"You look like you wouldn't taste so good.\"\nBe intimidating\n\"I like to sing when I work. Puts me in a good mood.\"\nSing a beautiful tune\n\"It's not a bad thing to drink until you fall asleep, is it?\"\nTilt your head\n\"Wine, mead, meat, and fish! That's what I call a full meal!\"\nSpread your wings\n\"Love a good party! I wish we could have one every day.\"\nNod\n\"Hey, is it a problem to go a few glasses past your limit?\"\nTilt your head\n\"I'm in the mood for some shuteye.\"\nSing a beautiful tune"
+        },
+        {
+          "headingId": "section-lilian-bird-time-reactions",
+          "heading": "Lilian",
+          "text": "Lilian\n\"I'll have to be careful not to shoot you by mistake when I go hunting.\"\nBe intimidating\n\"When I think about what I'll do with all this money I've saved... that's gonna be a great day.\"\nNod\n\"Working for someone who doesn't trust you isn't too bad. The money's nice, at least.\"\nNod\n\"Would it be coldhearted of me to say that money's more important to me than trust?\"\nTilt your head\n\"Do you like sparkly things? Wanna see my gems?\"\nGaze intently\n\"I like counting my savings over and over. Makes me feel like I'm getting closer to my dream.\"\nTilt your head\n\"Your wings are so pretty. Let me get a better look.\"\nSpread your wings\n\"When I've been working nonstop, sometimes a breather does me a world of good.\"\nSing a beautiful tune\n\"Urgh... I wish the day would come that my whole family could live together like we used to.\"\nGaze intently\n\"Next time I go hunting, I'll bring back some for you.\"\nSpread your wings"
+        },
+        {
+          "headingId": "section-lysander-bird-time-reactions",
+          "heading": "Lysander",
+          "text": "Lysander\n\"Am I too serious? Sometimes people react to me as if I was nagging them.\"\nTilt your head\n\"Turning down the advances of passionate women wears on me, mentally and physically...\"\nSing a beautiful tune\n\"I must strive to surpass my father, so I can stand shoulder to shoulder with the brave veterans!\"\nSpread your wings\n\"I like gazing at the sky. There's nothing silly about that... right?\"\nNod\n\"Despite the complaints, I have every right to refuse a night's drinking. I don't tolerate alcohol well.\"\nNod\n\"I'm considering if I should force myself to visit home. My stepfather and I don't get along very well.\"\nTilt your head\n\"I sometimes find my own inexperience frustrating...\"\nSing a beautiful tune\n\"Being with you puts me at such ease that I wish I could cage you to take you wherever I go.\"\nBe intimidating\n\"To look at you gives me the same feeling as when I gaze up at the sky.\"\nFlap your wings\n\"I bet it would feel incredible to fly alongside you in the clouds.\"\nSpread your wings"
+        },
+        {
+          "headingId": "section-leda-bird-time-reactions",
+          "heading": "Leda",
+          "text": "Leda\n\"Come fly to me when I'm performing.\"\nSpread your wings\n\"I'm willing to use any means...\"\nTilt your head\n\"I can't stand snakes.\"\nBe intimidating\n\"If you see me on a horse ride, you'd better swoop down and say hello.\"\nSpread your wings\n\"In the middle of playing, I often find I'm returning to song from back home. I guess I'm nostalgic.\"\nGaze intently\n\"I've been having trouble sleeping. I wonder if hearing a lullaby would help.\"\nSing a beautiful tune\n\"Any point in praying to the gods...\"\nGaze intently\n\"Birds are good at singing...\"\nSing a beautiful tune\n\"The next time I make food...\"\nTilt your head\n\"The key to dancing is good posture.\"\nDance"
+        },
+        {
+          "headingId": "section-buccar-bird-time-reactions",
+          "heading": "Buccar",
+          "text": "Buccar\n\"Would you like me to teach you martial arts?\"\nDo a somersault\n\"Any scar you get in your lord's service is a badge of honor.\"\nNod\n\"An enemy attacked you while your charge stood behind you...\"\nBe intimidating\n\"...I'd want to train you as a knight.\"\nSpread your wings\n\"I know well the sound of the vihuela...\"\nSing a beautiful tune\n\"Would you like me to make you something?\"\nNod\n\"Strange to see a bird with such conviction.\"\nGaze intently\n\"...The more I find to grumble about.\"\nTilt your head\n\"Most my age have had romantic relationships - I've only had loyalty to my lord.\"\nNod\n\"Milday's heart is consumed with a desire for revenge.\"\nSing a beautiful tune"
+        },
+        {
+          "headingId": "section-sirocco-bird-time-reactions",
+          "heading": "Sirocco",
+          "text": "Sirocco\n\"I thought we might enjoy playing a song together.\"\nSing a beautiful tune\n\"One must see the world in all its contours to melt others' hearts as I do.\"\nGaze intently\n\"No doubt I could recognize you admist a flock of winged creatures.\"\nSpread your wings\n\"Do you like your own name?\"\nNod\n\"Is there something that you similarly loathe?\"\nNod\n\"So when you see hail, think of me.\"\nNod\n\"What else could I do to woo them?\"\nSing a beautiful tune\n\"I'm envied by most men. Not that it's any wonder why.\"\nGaze intently\n\"You ought to admire for herself what a marvel she is.\"\nGaze intently\n\"A bird's instrument is its chip, but I'm no less skilled with my own.\"\nNod"
+        },
+        {
+          "headingId": "section-mu-bird-time-reactions",
+          "heading": "Mu",
+          "text": "Mu\n\"Wanna try my cooking sometime?\"\nNod timidly\n\"Sirocco's so great - I just really wish he didn't spend all his time womanizing.\"\nNod\n\"Everyone treats me like a kid.\"\nSpread your wings\n\"I don't know where my dad is now.\"\nTilt your head\n\"Back when Mom still lived at home, she'd train me!\"\nBe intimidating\n\"I want to help people when they're in trouble.\"\nSpread your wings\n\"I didn't think I had much in common with my mom, but maybe that's where I got my pushiness.\"\nTilt your head\n\"If you ever get injured, I'll fix you up!\"\nNod\n\"My mom loves singing, and she's AWFUL at it.\"\nSing a beautiful tune\n\"You have kind eyes. Looking at them really makes me feel better.\"\nGaze intently"
+        },
+        {
+          "headingId": "section-olympia-bird-time-reactions",
+          "heading": "Olympia",
+          "text": "Olympia\n\"I have the greatest confidence in my singing.\"\nSing softly\n\"It proves that age should not impede one's pursuits!\"\nNod\n\"I was recognized as the Blue Rose of Caelus.\"\nSpread your wings\n\"Listening to music played by another, I can sometimes feel their emotions.\"\nNod\n\"Kalla is so lovely! I imagine you'd fall in love with her at first sight.\"\nNod\n\"I understand not why my artistic talent is failing me.\"\nTilt your head\n\"In either music or dance, one missed day of practice costs you some skill.\"\nSing a beautiful tune\n\"Shall I compose a poem about you?\"\nDo a somersault\n\"I will best Leilidahna one day, I swear it.\"\nSpread your wings\n\"What must motherhood be like?\"\nTilt your head"
+        },
+        {
+          "headingId": "section-alexandria-bird-time-reactions",
+          "heading": "Alexandria",
+          "text": "Alexandria\n\"How do you take care of your feathers? They're so pretty.\"\nPreen\n\"It feels great to soar in the sky, doesn't it? How high can you fly?\"\nSpread your wings\n\"I go on long rides every now and then. Would you like to come along sometime?\"\nSpread your wings\n\"I heard someone talking about me behind my back earlier. What should I do about that?\"\nBe intimidating\nIt must be scary to live out in the wild. Please call for me if you're ever going somewhere dangerous!\"\nNod\n\"I have nothing but happy memories of my parents. But I do get sad, knowing they live only in memory.\"\nSing a beautiful tune\n\"I'm trying to live up to the name of \"Silver Maiden,\" and with Bucephalus, I'm sure that I will!\"\nSpread your wings\n\"I'm confident in my abilities in battle. I should show you what I can do sometime!\"\nGaze intently\n\"Would you like to meet Bucephalus? It'd be fun if you two were friends!\"\nNod\n\"Have you ever been to my home in Tellus? It's a wealthy county and has an easiness to it.\"\nSpread your wings"
+        },
+        {
+          "headingId": "section-noctula-bird-time-reactions",
+          "heading": "Noctula",
+          "text": "Noctula\n\"I learned a lot living on a mountain, like hunting and blacksmithing. Good to have skills, right?\"\nNod\n\"I like fighting with my fists. Keeps me feeling free and nimble in battle. Get what I mean?\"\nNod\n\"I'd like to call you something more than \"bird.\" How's Birdlee? Nah, that's not right.\"\nTilt your head\n\"I want to add a new move to my wrestle-dancing. Have any great ideas?\"\nDo a somersault\n\"I grew up thinking you had to marry the person who can defeat you in a fair fight. It's a dumb tradition, right? I'm tougher than the guys back home anyway.\"\nSing boldly\n\"Back home, I don't rank that high in importance, but as the chief's daughter, I'm singled out for marital challenges.\"\nNod\n\"My third eldest brother is traveling the world like I am. Say hello if you see him. He loves animals.\"\nFlap your wings\n\"I trained most days of my life, going up and down Mount Orgus. Want me to kick your perch in half?\"\nBe intimidating\n\"You're always here alone. Did you leave your flock? I did something like that too. Let's be friends!\"\nSpread your wings\n\"Something good is coming up soon. My gut is always right, you know!\"\nGaze intently"
+        },
+        {
+          "headingId": "section-sofia-bird-time-reactions",
+          "heading": "Sofia",
+          "text": "Sofia\n\"I like to give everyone cute little names. I hope it's cute anyway. Maybe it's kind of weird?\"\nTilt your head\n\"Don't you think Lord Solel is wonderful? He's so kind, amazing, and just plain great!\"\nNod\n\"Mmm, roasted? Braised? Oh! Sorry, I didn't mean anything by it. You don't look tasty at all!\"\nBe intimidating\n\"I never get tipsy, no matter how many mugs of suds I drink. How about you?\"\nTilt your head\n\"I have a VERY healthy appetite. The pay I get from the temple can't cover my meals. Tragic, right?\"\nSing softly\n\"I was born and raised at Lyoshan Fort. If you ever go there, watch out for all the ruffians!\"\nNod\n\"I love spicy food more than anything. Too bad it always gets eaten up quick. Why is that, I wonder?\"\nTilt your head\n\"If I think someone's cute, I can't help calling them a fun name. I'm going to call you Li'l Birdie!\"\nSpread your wings\n\"I grew up enjoying food at my dad's feasts with his friends. If I have a big party like that, want to come?\"\nSpread your wings\n\"Be careful to to get too near me when I'm really hungry. You do look delicious, I'm sorry to say.\"\nGaze intently"
+        },
+        {
+          "headingId": "section-zarcone-bird-time-reactions",
+          "heading": "Zarcone",
+          "text": "Zarcone\n\"There's no way I can give up on pillaging now! You know how many years I've been at it?\"\nTilt your head\n\"It's common sense to pick off the weaklings in battle. You look like easy prey to me!\"\nBe intimidating\n\"Got parents? If you don't, you'd fit in with me and my pals just fine. You could join our bandit crew!\"\nTilt your head\n\"The mountains are like home to me. I shold build me and my pals a castle up there, right?\"\nSpread your wings\n\"Weaklings like you end up as dinner. So try to fly extra-high so the arrows don't get you.\"\nFlap your wings\n\"The guys in the Gaia Brigade left me for dead as soon as we lost our battle in the games. Cruel, huh?\"\nNod\n\"I thought I could get anything I want through plunder and fighting. But how can I get myself a family...\"\nSing softly\n\"Good idea not fighting anyone who looks too dangerous. Whoever lasts longest... wins, right?\"\nNod\n\"If anyone gets robbed or snuffed out... they shouldn't be so weak! Fight harder, that's what I say!\"\nBe intimidating\n\"People think bandits eat nothin' but meat. It's vegetables all the way with me. Keep that in mind.\"\nNod"
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import { searchGuides } from './search';
 import type { LibraryData } from './types';
 
 async function loadLibrary(): Promise<LibraryData> {
-  const response = await fetch('/generated/library.json');
+  const response = await fetch(`${import.meta.env.BASE_URL}generated/library.json`);
   if (!response.ok) throw new Error('The local guide library could not be loaded.');
   const data = await response.json() as LibraryData;
   if (!Array.isArray(data.guides) || !Array.isArray(data.sources)) throw new Error('The local guide library is not valid.');
@@ -141,5 +141,5 @@ function Guide() {
 
 const libraryRoute = createRoute({ getParentRoute: () => rootRoute, path: '/', component: Library });
 const guideRoute = createRoute({ getParentRoute: () => rootRoute, path: '/guides/$guideId', component: Guide });
-export const router = createRouter({ routeTree: rootRoute.addChildren([libraryRoute, guideRoute]), scrollRestoration: true });
+export const router = createRouter({ basepath: import.meta.env.BASE_URL, routeTree: rootRoute.addChildren([libraryRoute, guideRoute]), scrollRestoration: true });
 declare module '@tanstack/react-router' { interface Register { router: typeof router } }

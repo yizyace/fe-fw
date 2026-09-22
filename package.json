@@ -17,7 +17,11 @@
     "test:browser": "playwright test",
     "guides:import": "tsx scripts/guides.ts import",
     "guides:build": "tsx scripts/guides.ts build",
-    "guides:verify": "tsx scripts/guides.ts verify"
+    "guides:verify": "tsx scripts/guides.ts verify",
+    "pages:snapshot": "tsx scripts/pages.ts snapshot",
+    "build:pages": "tsc --noEmit && tsx scripts/pages.ts build",
+    "test:pages": "playwright test --config playwright.pages.config.ts",
+    "preview:pages": "tsx tests/pages/server.ts"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.170.38",
